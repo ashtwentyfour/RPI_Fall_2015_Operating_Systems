@@ -1,0 +1,2406 @@
+time 0ms: Simulator started for SRT and First-Fit
+time 0ms: Process 'I' added to the system [Q I]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIII....................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'J' added to the system [Q I J]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJ......................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'G' added to the system [Q I J G]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGG.............
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'A' added to the system [Q I J G A]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGGAA...........
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'E' added to the system [Q I J G A E]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEE.............
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'B' added to the system [Q I J G A E B]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBB...............
+................................
+................................
+................................
+................................
+================================
+time 13ms: Process 'I' started using the CPU [Q J G A E B]
+time 63ms: Process 'I' completed its CPU burst [Q J G A E B]
+time 63ms: Process 'I' performing I/O [Q J G A E B]
+time 76ms: Process 'J' started using the CPU [Q G A E B]
+time 93ms: Process 'I' completed I/O [Q I G A E B]
+time 126ms: Process 'J' terminated [Q I G A E B]
+time 139ms: Process 'I' started using the CPU [Q G A E B]
+time 189ms: Process 'I' completed its CPU burst [Q G A E B]
+time 189ms: Process 'I' performing I/O [Q G A E B]
+time 202ms: Process 'G' started using the CPU [Q A E B]
+time 219ms: Process 'I' completed I/O [Q A E B]
+time 219ms: Process 'G' preempted by Process 'I' [Q G A E B]
+time 232ms: Process 'I' started using the CPU [Q G A E B]
+time 250ms: Process 'F' added to the system [Q G F A E B]
+time 250ms: Simulated Memory:
+================================
+IIIIIIIIIIIIFFFFFFFFFFFFFFF.....
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBB...............
+................................
+................................
+................................
+................................
+================================
+time 282ms: Process 'I' terminated [Q G F A E B]
+time 295ms: Process 'G' started using the CPU [Q F A E B]
+time 300ms: Process 'H' added to the system [Q H F A E B]
+time 300ms: Simulated Memory:
+================================
+............FFFFFFFFFFFFFFF.....
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHH...................
+................................
+................................
+================================
+time 300ms: Process 'M' added to the system [Q H F A E B M]
+time 300ms: Simulated Memory:
+================================
+............FFFFFFFFFFFFFFF.....
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMM..........................
+................................
+================================
+time 350ms: Process 'N' added to the system [Q H F A N E B M]
+time 350ms: Simulated Memory:
+================================
+NNN.........FFFFFFFFFFFFFFF.....
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMM..........................
+................................
+================================
+time 398ms: Process 'G' completed its CPU burst [Q H F A N E B M]
+time 398ms: Process 'G' performing I/O [Q H F A N E B M]
+time 411ms: Process 'H' started using the CPU [Q F A N E B M]
+time 498ms: Process 'G' completed I/O [Q F G A N E B M]
+time 500ms: Process 'D' added to the system [Q D F G A N E B M]
+time 500ms: Simulated Memory:
+================================
+NNN.........FFFFFFFFFFFFFFFDDDDD
+DDDDD.....GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMM..........................
+................................
+================================
+time 511ms: Process 'H' completed its CPU burst [Q D F G A N E B M]
+time 511ms: Process 'H' performing I/O [Q D F G A N E B M]
+time 524ms: Process 'D' started using the CPU [Q F G A N E B M]
+time 600ms: Process 'C' added to the system [Q C F G A N E B M]
+time 600ms: Simulated Memory:
+================================
+NNNCCCCCCCC.FFFFFFFFFFFFFFFDDDDD
+DDDDD.....GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMM..........................
+................................
+================================
+time 600ms: Process 'L' added to the system [Q C L F G A N E B M]
+time 600ms: Simulated Memory:
+================================
+NNNCCCCCCCC.FFFFFFFFFFFFFFFDDDDD
+DDDDD.....GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMMLLLLLLLLLLLLLLLLLLLL......
+................................
+================================
+time 602ms: Process 'O' added to the system [Q C L O F G A N E B M]
+time 602ms: Simulated Memory:
+================================
+NNNCCCCCCCC.FFFFFFFFFFFFFFFDDDDD
+DDDDDOOO..GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMMLLLLLLLLLLLLLLLLLLLL......
+................................
+================================
+time 611ms: Process 'H' completed I/O [Q C L O H F G A N E B M]
+time 614ms: Process 'D' completed its CPU burst [Q C L O H F G A N E B M]
+time 614ms: Process 'D' performing I/O [Q C L O H F G A N E B M]
+time 627ms: Process 'C' started using the CPU [Q L O H F G A N E B M]
+time 704ms: Process 'D' completed I/O [Q D L O H F G A N E B M]
+time 707ms: Process 'C' completed its CPU burst [Q D L O H F G A N E B M]
+time 707ms: Process 'C' performing I/O [Q D L O H F G A N E B M]
+time 720ms: Process 'D' started using the CPU [Q L O H F G A N E B M]
+time 810ms: Process 'D' completed its CPU burst [Q L O H F G A N E B M]
+time 810ms: Process 'D' performing I/O [Q L O H F G A N E B M]
+time 823ms: Process 'L' started using the CPU [Q O H F G A N E B M]
+time 900ms: Process 'D' completed I/O [Q D O H F G A N E B M]
+time 923ms: Process 'L' completed its CPU burst [Q D O H F G A N E B M]
+time 923ms: Process 'L' performing I/O [Q D O H F G A N E B M]
+time 933ms: Process 'L' completed I/O [Q D O H L F G A N E B M]
+time 936ms: Process 'D' started using the CPU [Q O H L F G A N E B M]
+time 1026ms: Process 'D' completed its CPU burst [Q O H L F G A N E B M]
+time 1026ms: Process 'D' performing I/O [Q O H L F G A N E B M]
+time 1039ms: Process 'O' started using the CPU [Q H L F G A N E B M]
+time 1116ms: Process 'D' completed I/O [Q D H L F G A N E B M]
+time 1139ms: Process 'O' terminated [Q D H L F G A N E B M]
+time 1152ms: Process 'D' started using the CPU [Q H L F G A N E B M]
+time 1242ms: Process 'D' completed its CPU burst [Q H L F G A N E B M]
+time 1242ms: Process 'D' performing I/O [Q H L F G A N E B M]
+time 1255ms: Process 'H' started using the CPU [Q L F G A N E B M]
+time 1332ms: Process 'D' completed I/O [Q D L F G A N E B M]
+time 1355ms: Process 'H' completed its CPU burst [Q D L F G A N E B M]
+time 1355ms: Process 'H' performing I/O [Q D L F G A N E B M]
+time 1368ms: Process 'D' started using the CPU [Q L F G A N E B M]
+time 1455ms: Process 'H' completed I/O [Q L H F G A N E B M]
+time 1458ms: Process 'D' terminated [Q L H F G A N E B M]
+time 1471ms: Process 'L' started using the CPU [Q H F G A N E B M]
+time 1571ms: Process 'L' completed its CPU burst [Q H F G A N E B M]
+time 1571ms: Process 'L' performing I/O [Q H F G A N E B M]
+time 1581ms: Process 'L' completed I/O [Q H L F G A N E B M]
+time 1584ms: Process 'H' started using the CPU [Q L F G A N E B M]
+time 1684ms: Process 'H' completed its CPU burst [Q L F G A N E B M]
+time 1684ms: Process 'H' performing I/O [Q L F G A N E B M]
+time 1697ms: Process 'L' started using the CPU [Q F G A N E B M]
+time 1784ms: Process 'H' completed I/O [Q H F G A N E B M]
+time 1797ms: Process 'L' terminated [Q H F G A N E B M]
+time 1810ms: Process 'H' started using the CPU [Q F G A N E B M]
+time 1910ms: Process 'H' terminated [Q F G A N E B M]
+time 1923ms: Process 'F' started using the CPU [Q G A N E B M]
+time 2043ms: Process 'F' completed its CPU burst [Q G A N E B M]
+time 2043ms: Process 'F' performing I/O [Q G A N E B M]
+time 2056ms: Process 'G' started using the CPU [Q A N E B M]
+time 2123ms: Process 'F' completed I/O [Q F A N E B M]
+time 2176ms: Process 'G' terminated [Q F A N E B M]
+time 2189ms: Process 'F' started using the CPU [Q A N E B M]
+time 2309ms: Process 'F' completed its CPU burst [Q A N E B M]
+time 2309ms: Process 'F' performing I/O [Q A N E B M]
+time 2322ms: Process 'A' started using the CPU [Q N E B M]
+time 2389ms: Process 'F' completed I/O [Q F N E B M]
+time 2407ms: Process 'C' completed I/O [Q F N E B M]
+time 2407ms: Process 'A' preempted by Process 'C' [Q F A N E B M]
+time 2420ms: Process 'C' started using the CPU [Q F A N E B M]
+time 2500ms: Process 'C' completed its CPU burst [Q F A N E B M]
+time 2500ms: Process 'C' performing I/O [Q F A N E B M]
+time 2513ms: Process 'F' started using the CPU [Q A N E B M]
+time 2633ms: Process 'F' completed its CPU burst [Q A N E B M]
+time 2633ms: Process 'F' performing I/O [Q A N E B M]
+time 2646ms: Process 'A' started using the CPU [Q N E B M]
+time 2713ms: Process 'F' completed I/O [Q F N E B M]
+time 2729ms: Process 'A' terminated [Q F N E B M]
+time 2742ms: Process 'F' started using the CPU [Q N E B M]
+time 2862ms: Process 'F' completed its CPU burst [Q N E B M]
+time 2862ms: Process 'F' performing I/O [Q N E B M]
+time 2875ms: Process 'N' started using the CPU [Q E B M]
+time 2942ms: Process 'F' completed I/O [Q E B M]
+time 2942ms: Process 'N' preempted by Process 'F' [Q N E B M]
+time 2955ms: Process 'F' started using the CPU [Q N E B M]
+time 3075ms: Process 'F' terminated [Q N E B M]
+time 3088ms: Process 'N' started using the CPU [Q E B M]
+time 3221ms: Process 'N' completed its CPU burst [Q E B M]
+time 3221ms: Process 'N' performing I/O [Q E B M]
+time 3234ms: Process 'E' started using the CPU [Q B M]
+time 3321ms: Process 'N' completed I/O [Q B M]
+time 3321ms: Process 'E' preempted by Process 'N' [Q E B M]
+time 3334ms: Process 'N' started using the CPU [Q E B M]
+time 3534ms: Process 'N' terminated [Q E B M]
+time 3547ms: Process 'E' started using the CPU [Q B M]
+time 3880ms: Process 'E' completed its CPU burst [Q B M]
+time 3880ms: Process 'E' performing I/O [Q B M]
+time 3893ms: Process 'B' started using the CPU [Q M]
+time 3970ms: Process 'E' completed I/O [Q M]
+time 3970ms: Process 'B' preempted by Process 'E' [Q B M]
+time 3983ms: Process 'E' started using the CPU [Q B M]
+time 4200ms: Process 'C' completed I/O [Q B M]
+time 4200ms: Process 'E' preempted by Process 'C' [Q E B M]
+time 4213ms: Process 'C' started using the CPU [Q E B M]
+time 4293ms: Process 'C' completed its CPU burst [Q E B M]
+time 4293ms: Process 'C' performing I/O [Q E B M]
+time 4306ms: Process 'E' started using the CPU [Q B M]
+time 4509ms: Process 'E' completed its CPU burst [Q B M]
+time 4509ms: Process 'E' performing I/O [Q B M]
+time 4522ms: Process 'B' started using the CPU [Q M]
+time 4599ms: Process 'E' completed I/O [Q E M]
+time 4945ms: Process 'B' terminated [Q E M]
+time 4958ms: Process 'E' started using the CPU [Q M]
+time 5378ms: Process 'E' completed its CPU burst [Q M]
+time 5378ms: Process 'E' performing I/O [Q M]
+time 5391ms: Process 'M' started using the CPU [Q]
+time 5468ms: Process 'E' completed I/O [Q]
+time 5468ms: Process 'M' preempted by Process 'E' [Q M]
+time 5481ms: Process 'E' started using the CPU [Q M]
+time 5901ms: Process 'E' completed its CPU burst [Q M]
+time 5901ms: Process 'E' performing I/O [Q M]
+time 5914ms: Process 'M' started using the CPU [Q]
+time 5991ms: Process 'E' completed I/O [Q]
+time 5991ms: Process 'M' preempted by Process 'E' [Q M]
+time 5993ms: Process 'C' completed I/O [Q M]
+time 5993ms: Process 'E' preempted by Process 'C' [Q E M]
+time 6006ms: Process 'C' started using the CPU [Q E M]
+time 6086ms: Process 'C' completed its CPU burst [Q E M]
+time 6086ms: Process 'C' performing I/O [Q E M]
+time 6099ms: Process 'E' started using the CPU [Q M]
+time 6520ms: Process 'E' terminated [Q M]
+time 6533ms: Process 'M' started using the CPU [Q]
+time 7786ms: Process 'C' completed I/O [Q]
+time 7786ms: Process 'M' preempted by Process 'C' [Q M]
+time 7799ms: Process 'C' started using the CPU [Q M]
+time 7879ms: Process 'C' terminated [Q M]
+time 7892ms: Process 'M' started using the CPU [Q]
+time 8185ms: Process 'M' completed its CPU burst [Q]
+time 8185ms: Process 'M' performing I/O [Q]
+time 8285ms: Process 'M' completed I/O [Q M]
+time 8298ms: Process 'M' started using the CPU [Q]
+time 9998ms: Process 'M' terminated [Q]
+time 9998ms: Simulator for SRT and First-Fit ended [Q]
+
+time 0ms: Simulator started for SRT and Next-Fit
+time 0ms: Process 'I' added to the system [Q I]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIII....................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'J' added to the system [Q I J]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJ......................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'G' added to the system [Q I J G]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGG.............
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'A' added to the system [Q I J G A]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGGAA...........
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'E' added to the system [Q I J G A E]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEE.............
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'B' added to the system [Q I J G A E B]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBB...............
+................................
+................................
+................................
+................................
+================================
+time 13ms: Process 'I' started using the CPU [Q J G A E B]
+time 63ms: Process 'I' completed its CPU burst [Q J G A E B]
+time 63ms: Process 'I' performing I/O [Q J G A E B]
+time 76ms: Process 'J' started using the CPU [Q G A E B]
+time 93ms: Process 'I' completed I/O [Q I G A E B]
+time 126ms: Process 'J' terminated [Q I G A E B]
+time 139ms: Process 'I' started using the CPU [Q G A E B]
+time 189ms: Process 'I' completed its CPU burst [Q G A E B]
+time 189ms: Process 'I' performing I/O [Q G A E B]
+time 202ms: Process 'G' started using the CPU [Q A E B]
+time 219ms: Process 'I' completed I/O [Q A E B]
+time 219ms: Process 'G' preempted by Process 'I' [Q G A E B]
+time 232ms: Process 'I' started using the CPU [Q G A E B]
+time 250ms: Process 'F' added to the system [Q G F A E B]
+time 250ms: Simulated Memory:
+================================
+IIIIIIIIIIII....................
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFF
+................................
+................................
+................................
+................................
+================================
+time 282ms: Process 'I' terminated [Q G F A E B]
+time 295ms: Process 'G' started using the CPU [Q F A E B]
+time 300ms: Process 'H' added to the system [Q H F A E B]
+time 300ms: Simulated Memory:
+================================
+................................
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHH....
+................................
+................................
+================================
+time 300ms: Process 'M' added to the system [Q H F A E B M]
+time 300ms: Simulated Memory:
+================================
+................................
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMM...........
+................................
+================================
+time 350ms: Process 'N' added to the system [Q H F A N E B M]
+time 350ms: Simulated Memory:
+================================
+................................
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNN........
+................................
+================================
+time 398ms: Process 'G' completed its CPU burst [Q H F A N E B M]
+time 398ms: Process 'G' performing I/O [Q H F A N E B M]
+time 411ms: Process 'H' started using the CPU [Q F A N E B M]
+time 498ms: Process 'G' completed I/O [Q F G A N E B M]
+time 500ms: Process 'D' added to the system [Q D F G A N E B M]
+time 500ms: Simulated Memory:
+================================
+................................
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNDDDDDDDD
+DD..............................
+================================
+time 511ms: Process 'H' completed its CPU burst [Q D F G A N E B M]
+time 511ms: Process 'H' performing I/O [Q D F G A N E B M]
+time 524ms: Process 'D' started using the CPU [Q F G A N E B M]
+time 600ms: Process 'C' added to the system [Q C F G A N E B M]
+time 600ms: Simulated Memory:
+================================
+................................
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNDDDDDDDD
+DDCCCCCCCC......................
+================================
+time 600ms: Process 'L' added to the system [Q C L F G A N E B M]
+time 600ms: Simulated Memory:
+================================
+................................
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNDDDDDDDD
+DDCCCCCCCCLLLLLLLLLLLLLLLLLLLL..
+================================
+time 602ms: Process 'O' unable to be added; lack of memory;
+time 602ms: Starting defragmentation (suspending all processes)
+time 602ms: Simulated Memory:
+================================
+................................
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNDDDDDDDD
+DDCCCCCCCCLLLLLLLLLLLLLLLLLLLL..
+================================
+time 2722ms: Completed defragmentation (moved 212 units of memory)
+time 2722ms: Simulated Memory:
+================================
+GGGGGGGGGAAEEEEEEEEEEEEEEEEEEEEE
+EEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBFFFFFFFFFFFFFFFHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHMMMMMMMMMMMMMM
+MMMMMMMMMMMNNNDDDDDDDDDDCCCCCCCC
+LLLLLLLLLLLLLLLLLLLL............
+................................
+================================
+time 2722ms: Process 'O' added to the system [Q C L O F G A N E B M]
+time 2734ms: Process 'D' completed its CPU burst [Q C L O H F G A N E B M]
+time 2734ms: Process 'D' performing I/O [Q C L O H F G A N E B M]
+time 2747ms: Process 'C' started using the CPU [Q L O H F G A N E B M]
+time 2824ms: Process 'D' completed I/O [Q D L O H F G A N E B M]
+time 2827ms: Process 'C' completed its CPU burst [Q D L O H F G A N E B M]
+time 2827ms: Process 'C' performing I/O [Q D L O H F G A N E B M]
+time 2840ms: Process 'D' started using the CPU [Q L O H F G A N E B M]
+time 2930ms: Process 'D' completed its CPU burst [Q L O H F G A N E B M]
+time 2930ms: Process 'D' performing I/O [Q L O H F G A N E B M]
+time 2943ms: Process 'L' started using the CPU [Q O H F G A N E B M]
+time 3020ms: Process 'D' completed I/O [Q D O H F G A N E B M]
+time 3043ms: Process 'L' completed its CPU burst [Q D O H F G A N E B M]
+time 3043ms: Process 'L' performing I/O [Q D O H F G A N E B M]
+time 3053ms: Process 'L' completed I/O [Q D O H L F G A N E B M]
+time 3056ms: Process 'D' started using the CPU [Q O H L F G A N E B M]
+time 3146ms: Process 'D' completed its CPU burst [Q O H L F G A N E B M]
+time 3146ms: Process 'D' performing I/O [Q O H L F G A N E B M]
+time 3159ms: Process 'O' started using the CPU [Q H L F G A N E B M]
+time 3236ms: Process 'D' completed I/O [Q D H L F G A N E B M]
+time 3259ms: Process 'O' terminated [Q D H L F G A N E B M]
+time 3272ms: Process 'D' started using the CPU [Q H L F G A N E B M]
+time 3362ms: Process 'D' completed its CPU burst [Q H L F G A N E B M]
+time 3362ms: Process 'D' performing I/O [Q H L F G A N E B M]
+time 3375ms: Process 'H' started using the CPU [Q L F G A N E B M]
+time 3452ms: Process 'D' completed I/O [Q D L F G A N E B M]
+time 3475ms: Process 'H' completed its CPU burst [Q D L F G A N E B M]
+time 3475ms: Process 'H' performing I/O [Q D L F G A N E B M]
+time 3488ms: Process 'D' started using the CPU [Q L F G A N E B M]
+time 3575ms: Process 'H' completed I/O [Q L H F G A N E B M]
+time 3578ms: Process 'D' terminated [Q L H F G A N E B M]
+time 3591ms: Process 'L' started using the CPU [Q H F G A N E B M]
+time 3691ms: Process 'L' completed its CPU burst [Q H F G A N E B M]
+time 3691ms: Process 'L' performing I/O [Q H F G A N E B M]
+time 3701ms: Process 'L' completed I/O [Q H L F G A N E B M]
+time 3704ms: Process 'H' started using the CPU [Q L F G A N E B M]
+time 3804ms: Process 'H' completed its CPU burst [Q L F G A N E B M]
+time 3804ms: Process 'H' performing I/O [Q L F G A N E B M]
+time 3817ms: Process 'L' started using the CPU [Q F G A N E B M]
+time 3904ms: Process 'H' completed I/O [Q H F G A N E B M]
+time 3917ms: Process 'L' terminated [Q H F G A N E B M]
+time 3930ms: Process 'H' started using the CPU [Q F G A N E B M]
+time 4030ms: Process 'H' terminated [Q F G A N E B M]
+time 4043ms: Process 'F' started using the CPU [Q G A N E B M]
+time 4163ms: Process 'F' completed its CPU burst [Q G A N E B M]
+time 4163ms: Process 'F' performing I/O [Q G A N E B M]
+time 4176ms: Process 'G' started using the CPU [Q A N E B M]
+time 4243ms: Process 'F' completed I/O [Q F A N E B M]
+time 4296ms: Process 'G' terminated [Q F A N E B M]
+time 4309ms: Process 'F' started using the CPU [Q A N E B M]
+time 4429ms: Process 'F' completed its CPU burst [Q A N E B M]
+time 4429ms: Process 'F' performing I/O [Q A N E B M]
+time 4442ms: Process 'A' started using the CPU [Q N E B M]
+time 4509ms: Process 'F' completed I/O [Q F N E B M]
+time 4527ms: Process 'C' completed I/O [Q F N E B M]
+time 4527ms: Process 'A' preempted by Process 'C' [Q F A N E B M]
+time 4540ms: Process 'C' started using the CPU [Q F A N E B M]
+time 4620ms: Process 'C' completed its CPU burst [Q F A N E B M]
+time 4620ms: Process 'C' performing I/O [Q F A N E B M]
+time 4633ms: Process 'F' started using the CPU [Q A N E B M]
+time 4753ms: Process 'F' completed its CPU burst [Q A N E B M]
+time 4753ms: Process 'F' performing I/O [Q A N E B M]
+time 4766ms: Process 'A' started using the CPU [Q N E B M]
+time 4833ms: Process 'F' completed I/O [Q F N E B M]
+time 4849ms: Process 'A' terminated [Q F N E B M]
+time 4862ms: Process 'F' started using the CPU [Q N E B M]
+time 4982ms: Process 'F' completed its CPU burst [Q N E B M]
+time 4982ms: Process 'F' performing I/O [Q N E B M]
+time 4995ms: Process 'N' started using the CPU [Q E B M]
+time 5062ms: Process 'F' completed I/O [Q E B M]
+time 5062ms: Process 'N' preempted by Process 'F' [Q N E B M]
+time 5075ms: Process 'F' started using the CPU [Q N E B M]
+time 5195ms: Process 'F' terminated [Q N E B M]
+time 5208ms: Process 'N' started using the CPU [Q E B M]
+time 5341ms: Process 'N' completed its CPU burst [Q E B M]
+time 5341ms: Process 'N' performing I/O [Q E B M]
+time 5354ms: Process 'E' started using the CPU [Q B M]
+time 5441ms: Process 'N' completed I/O [Q B M]
+time 5441ms: Process 'E' preempted by Process 'N' [Q E B M]
+time 5454ms: Process 'N' started using the CPU [Q E B M]
+time 5654ms: Process 'N' terminated [Q E B M]
+time 5667ms: Process 'E' started using the CPU [Q B M]
+time 6000ms: Process 'E' completed its CPU burst [Q B M]
+time 6000ms: Process 'E' performing I/O [Q B M]
+time 6013ms: Process 'B' started using the CPU [Q M]
+time 6090ms: Process 'E' completed I/O [Q M]
+time 6090ms: Process 'B' preempted by Process 'E' [Q B M]
+time 6103ms: Process 'E' started using the CPU [Q B M]
+time 6320ms: Process 'C' completed I/O [Q B M]
+time 6320ms: Process 'E' preempted by Process 'C' [Q E B M]
+time 6333ms: Process 'C' started using the CPU [Q E B M]
+time 6413ms: Process 'C' completed its CPU burst [Q E B M]
+time 6413ms: Process 'C' performing I/O [Q E B M]
+time 6426ms: Process 'E' started using the CPU [Q B M]
+time 6629ms: Process 'E' completed its CPU burst [Q B M]
+time 6629ms: Process 'E' performing I/O [Q B M]
+time 6642ms: Process 'B' started using the CPU [Q M]
+time 6719ms: Process 'E' completed I/O [Q E M]
+time 7065ms: Process 'B' terminated [Q E M]
+time 7078ms: Process 'E' started using the CPU [Q M]
+time 7498ms: Process 'E' completed its CPU burst [Q M]
+time 7498ms: Process 'E' performing I/O [Q M]
+time 7511ms: Process 'M' started using the CPU [Q]
+time 7588ms: Process 'E' completed I/O [Q]
+time 7588ms: Process 'M' preempted by Process 'E' [Q M]
+time 7601ms: Process 'E' started using the CPU [Q M]
+time 8021ms: Process 'E' completed its CPU burst [Q M]
+time 8021ms: Process 'E' performing I/O [Q M]
+time 8034ms: Process 'M' started using the CPU [Q]
+time 8111ms: Process 'E' completed I/O [Q]
+time 8111ms: Process 'M' preempted by Process 'E' [Q M]
+time 8113ms: Process 'C' completed I/O [Q M]
+time 8113ms: Process 'E' preempted by Process 'C' [Q E M]
+time 8126ms: Process 'C' started using the CPU [Q E M]
+time 8206ms: Process 'C' completed its CPU burst [Q E M]
+time 8206ms: Process 'C' performing I/O [Q E M]
+time 8219ms: Process 'E' started using the CPU [Q M]
+time 8640ms: Process 'E' terminated [Q M]
+time 8653ms: Process 'M' started using the CPU [Q]
+time 9906ms: Process 'C' completed I/O [Q]
+time 9906ms: Process 'M' preempted by Process 'C' [Q M]
+time 9919ms: Process 'C' started using the CPU [Q M]
+time 9999ms: Process 'C' terminated [Q M]
+time 10012ms: Process 'M' started using the CPU [Q]
+time 10305ms: Process 'M' completed its CPU burst [Q]
+time 10305ms: Process 'M' performing I/O [Q]
+time 10405ms: Process 'M' completed I/O [Q M]
+time 10418ms: Process 'M' started using the CPU [Q]
+time 12118ms: Process 'M' terminated [Q]
+time 12118ms: Simulator for SRT and Next-Fit ended [Q]
+
+time 0ms: Simulator started for SRT and Best-Fit
+time 0ms: Process 'I' added to the system [Q I]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIII....................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'J' added to the system [Q I J]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJ......................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'G' added to the system [Q I J G]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGG.............
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'A' added to the system [Q I J G A]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGGAA...........
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'E' added to the system [Q I J G A E]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEE.............
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'B' added to the system [Q I J G A E B]
+time 0ms: Simulated Memory:
+================================
+IIIIIIIIIIIIJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJGGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBB...............
+................................
+................................
+................................
+................................
+================================
+time 13ms: Process 'I' started using the CPU [Q J G A E B]
+time 63ms: Process 'I' completed its CPU burst [Q J G A E B]
+time 63ms: Process 'I' performing I/O [Q J G A E B]
+time 76ms: Process 'J' started using the CPU [Q G A E B]
+time 93ms: Process 'I' completed I/O [Q I G A E B]
+time 126ms: Process 'J' terminated [Q I G A E B]
+time 139ms: Process 'I' started using the CPU [Q G A E B]
+time 189ms: Process 'I' completed its CPU burst [Q G A E B]
+time 189ms: Process 'I' performing I/O [Q G A E B]
+time 202ms: Process 'G' started using the CPU [Q A E B]
+time 219ms: Process 'I' completed I/O [Q A E B]
+time 219ms: Process 'G' preempted by Process 'I' [Q G A E B]
+time 232ms: Process 'I' started using the CPU [Q G A E B]
+time 250ms: Process 'F' added to the system [Q G F A E B]
+time 250ms: Simulated Memory:
+================================
+IIIIIIIIIIIIFFFFFFFFFFFFFFF.....
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBB...............
+................................
+................................
+................................
+................................
+================================
+time 282ms: Process 'I' terminated [Q G F A E B]
+time 295ms: Process 'G' started using the CPU [Q F A E B]
+time 300ms: Process 'H' added to the system [Q H F A E B]
+time 300ms: Simulated Memory:
+================================
+............FFFFFFFFFFFFFFF.....
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHH...................
+................................
+................................
+================================
+time 300ms: Process 'M' added to the system [Q H F A E B M]
+time 300ms: Simulated Memory:
+================================
+............FFFFFFFFFFFFFFF.....
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMM..........................
+................................
+================================
+time 350ms: Process 'N' added to the system [Q H F A N E B M]
+time 350ms: Simulated Memory:
+================================
+NNN.........FFFFFFFFFFFFFFF.....
+..........GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMM..........................
+................................
+================================
+time 398ms: Process 'G' completed its CPU burst [Q H F A N E B M]
+time 398ms: Process 'G' performing I/O [Q H F A N E B M]
+time 411ms: Process 'H' started using the CPU [Q F A N E B M]
+time 498ms: Process 'G' completed I/O [Q F G A N E B M]
+time 500ms: Process 'D' added to the system [Q D F G A N E B M]
+time 500ms: Simulated Memory:
+================================
+NNN.........FFFFFFFFFFFFFFFDDDDD
+DDDDD.....GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMM..........................
+................................
+================================
+time 511ms: Process 'H' completed its CPU burst [Q D F G A N E B M]
+time 511ms: Process 'H' performing I/O [Q D F G A N E B M]
+time 524ms: Process 'D' started using the CPU [Q F G A N E B M]
+time 600ms: Process 'C' added to the system [Q C F G A N E B M]
+time 600ms: Simulated Memory:
+================================
+NNNCCCCCCCC.FFFFFFFFFFFFFFFDDDDD
+DDDDD.....GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMM..........................
+................................
+================================
+time 600ms: Process 'L' added to the system [Q C L F G A N E B M]
+time 600ms: Simulated Memory:
+================================
+NNNCCCCCCCC.FFFFFFFFFFFFFFFDDDDD
+DDDDD.....GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMMLLLLLLLLLLLLLLLLLLLL......
+................................
+================================
+time 602ms: Process 'O' added to the system [Q C L O F G A N E B M]
+time 602ms: Simulated Memory:
+================================
+NNNCCCCCCCC.FFFFFFFFFFFFFFFDDDDD
+DDDDDOOO..GGGGGGGGGAAEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHMMMMMMMMMMMMMMMMMMM
+MMMMMMLLLLLLLLLLLLLLLLLLLL......
+................................
+================================
+time 611ms: Process 'H' completed I/O [Q C L O H F G A N E B M]
+time 614ms: Process 'D' completed its CPU burst [Q C L O H F G A N E B M]
+time 614ms: Process 'D' performing I/O [Q C L O H F G A N E B M]
+time 627ms: Process 'C' started using the CPU [Q L O H F G A N E B M]
+time 704ms: Process 'D' completed I/O [Q D L O H F G A N E B M]
+time 707ms: Process 'C' completed its CPU burst [Q D L O H F G A N E B M]
+time 707ms: Process 'C' performing I/O [Q D L O H F G A N E B M]
+time 720ms: Process 'D' started using the CPU [Q L O H F G A N E B M]
+time 810ms: Process 'D' completed its CPU burst [Q L O H F G A N E B M]
+time 810ms: Process 'D' performing I/O [Q L O H F G A N E B M]
+time 823ms: Process 'L' started using the CPU [Q O H F G A N E B M]
+time 900ms: Process 'D' completed I/O [Q D O H F G A N E B M]
+time 923ms: Process 'L' completed its CPU burst [Q D O H F G A N E B M]
+time 923ms: Process 'L' performing I/O [Q D O H F G A N E B M]
+time 933ms: Process 'L' completed I/O [Q D O H L F G A N E B M]
+time 936ms: Process 'D' started using the CPU [Q O H L F G A N E B M]
+time 1026ms: Process 'D' completed its CPU burst [Q O H L F G A N E B M]
+time 1026ms: Process 'D' performing I/O [Q O H L F G A N E B M]
+time 1039ms: Process 'O' started using the CPU [Q H L F G A N E B M]
+time 1116ms: Process 'D' completed I/O [Q D H L F G A N E B M]
+time 1139ms: Process 'O' terminated [Q D H L F G A N E B M]
+time 1152ms: Process 'D' started using the CPU [Q H L F G A N E B M]
+time 1242ms: Process 'D' completed its CPU burst [Q H L F G A N E B M]
+time 1242ms: Process 'D' performing I/O [Q H L F G A N E B M]
+time 1255ms: Process 'H' started using the CPU [Q L F G A N E B M]
+time 1332ms: Process 'D' completed I/O [Q D L F G A N E B M]
+time 1355ms: Process 'H' completed its CPU burst [Q D L F G A N E B M]
+time 1355ms: Process 'H' performing I/O [Q D L F G A N E B M]
+time 1368ms: Process 'D' started using the CPU [Q L F G A N E B M]
+time 1455ms: Process 'H' completed I/O [Q L H F G A N E B M]
+time 1458ms: Process 'D' terminated [Q L H F G A N E B M]
+time 1471ms: Process 'L' started using the CPU [Q H F G A N E B M]
+time 1571ms: Process 'L' completed its CPU burst [Q H F G A N E B M]
+time 1571ms: Process 'L' performing I/O [Q H F G A N E B M]
+time 1581ms: Process 'L' completed I/O [Q H L F G A N E B M]
+time 1584ms: Process 'H' started using the CPU [Q L F G A N E B M]
+time 1684ms: Process 'H' completed its CPU burst [Q L F G A N E B M]
+time 1684ms: Process 'H' performing I/O [Q L F G A N E B M]
+time 1697ms: Process 'L' started using the CPU [Q F G A N E B M]
+time 1784ms: Process 'H' completed I/O [Q H F G A N E B M]
+time 1797ms: Process 'L' terminated [Q H F G A N E B M]
+time 1810ms: Process 'H' started using the CPU [Q F G A N E B M]
+time 1910ms: Process 'H' terminated [Q F G A N E B M]
+time 1923ms: Process 'F' started using the CPU [Q G A N E B M]
+time 2043ms: Process 'F' completed its CPU burst [Q G A N E B M]
+time 2043ms: Process 'F' performing I/O [Q G A N E B M]
+time 2056ms: Process 'G' started using the CPU [Q A N E B M]
+time 2123ms: Process 'F' completed I/O [Q F A N E B M]
+time 2176ms: Process 'G' terminated [Q F A N E B M]
+time 2189ms: Process 'F' started using the CPU [Q A N E B M]
+time 2309ms: Process 'F' completed its CPU burst [Q A N E B M]
+time 2309ms: Process 'F' performing I/O [Q A N E B M]
+time 2322ms: Process 'A' started using the CPU [Q N E B M]
+time 2389ms: Process 'F' completed I/O [Q F N E B M]
+time 2407ms: Process 'C' completed I/O [Q F N E B M]
+time 2407ms: Process 'A' preempted by Process 'C' [Q F A N E B M]
+time 2420ms: Process 'C' started using the CPU [Q F A N E B M]
+time 2500ms: Process 'C' completed its CPU burst [Q F A N E B M]
+time 2500ms: Process 'C' performing I/O [Q F A N E B M]
+time 2513ms: Process 'F' started using the CPU [Q A N E B M]
+time 2633ms: Process 'F' completed its CPU burst [Q A N E B M]
+time 2633ms: Process 'F' performing I/O [Q A N E B M]
+time 2646ms: Process 'A' started using the CPU [Q N E B M]
+time 2713ms: Process 'F' completed I/O [Q F N E B M]
+time 2729ms: Process 'A' terminated [Q F N E B M]
+time 2742ms: Process 'F' started using the CPU [Q N E B M]
+time 2862ms: Process 'F' completed its CPU burst [Q N E B M]
+time 2862ms: Process 'F' performing I/O [Q N E B M]
+time 2875ms: Process 'N' started using the CPU [Q E B M]
+time 2942ms: Process 'F' completed I/O [Q E B M]
+time 2942ms: Process 'N' preempted by Process 'F' [Q N E B M]
+time 2955ms: Process 'F' started using the CPU [Q N E B M]
+time 3075ms: Process 'F' terminated [Q N E B M]
+time 3088ms: Process 'N' started using the CPU [Q E B M]
+time 3221ms: Process 'N' completed its CPU burst [Q E B M]
+time 3221ms: Process 'N' performing I/O [Q E B M]
+time 3234ms: Process 'E' started using the CPU [Q B M]
+time 3321ms: Process 'N' completed I/O [Q B M]
+time 3321ms: Process 'E' preempted by Process 'N' [Q E B M]
+time 3334ms: Process 'N' started using the CPU [Q E B M]
+time 3534ms: Process 'N' terminated [Q E B M]
+time 3547ms: Process 'E' started using the CPU [Q B M]
+time 3880ms: Process 'E' completed its CPU burst [Q B M]
+time 3880ms: Process 'E' performing I/O [Q B M]
+time 3893ms: Process 'B' started using the CPU [Q M]
+time 3970ms: Process 'E' completed I/O [Q M]
+time 3970ms: Process 'B' preempted by Process 'E' [Q B M]
+time 3983ms: Process 'E' started using the CPU [Q B M]
+time 4200ms: Process 'C' completed I/O [Q B M]
+time 4200ms: Process 'E' preempted by Process 'C' [Q E B M]
+time 4213ms: Process 'C' started using the CPU [Q E B M]
+time 4293ms: Process 'C' completed its CPU burst [Q E B M]
+time 4293ms: Process 'C' performing I/O [Q E B M]
+time 4306ms: Process 'E' started using the CPU [Q B M]
+time 4509ms: Process 'E' completed its CPU burst [Q B M]
+time 4509ms: Process 'E' performing I/O [Q B M]
+time 4522ms: Process 'B' started using the CPU [Q M]
+time 4599ms: Process 'E' completed I/O [Q E M]
+time 4945ms: Process 'B' terminated [Q E M]
+time 4958ms: Process 'E' started using the CPU [Q M]
+time 5378ms: Process 'E' completed its CPU burst [Q M]
+time 5378ms: Process 'E' performing I/O [Q M]
+time 5391ms: Process 'M' started using the CPU [Q]
+time 5468ms: Process 'E' completed I/O [Q]
+time 5468ms: Process 'M' preempted by Process 'E' [Q M]
+time 5481ms: Process 'E' started using the CPU [Q M]
+time 5901ms: Process 'E' completed its CPU burst [Q M]
+time 5901ms: Process 'E' performing I/O [Q M]
+time 5914ms: Process 'M' started using the CPU [Q]
+time 5991ms: Process 'E' completed I/O [Q]
+time 5991ms: Process 'M' preempted by Process 'E' [Q M]
+time 5993ms: Process 'C' completed I/O [Q M]
+time 5993ms: Process 'E' preempted by Process 'C' [Q E M]
+time 6006ms: Process 'C' started using the CPU [Q E M]
+time 6086ms: Process 'C' completed its CPU burst [Q E M]
+time 6086ms: Process 'C' performing I/O [Q E M]
+time 6099ms: Process 'E' started using the CPU [Q M]
+time 6520ms: Process 'E' terminated [Q M]
+time 6533ms: Process 'M' started using the CPU [Q]
+time 7786ms: Process 'C' completed I/O [Q]
+time 7786ms: Process 'M' preempted by Process 'C' [Q M]
+time 7799ms: Process 'C' started using the CPU [Q M]
+time 7879ms: Process 'C' terminated [Q M]
+time 7892ms: Process 'M' started using the CPU [Q]
+time 8185ms: Process 'M' completed its CPU burst [Q]
+time 8185ms: Process 'M' performing I/O [Q]
+time 8285ms: Process 'M' completed I/O [Q M]
+time 8298ms: Process 'M' started using the CPU [Q]
+time 9998ms: Process 'M' terminated [Q]
+time 9998ms: Simulator for SRT and Best-Fit ended [Q]
+
+time 0ms: Simulator started for RR (t_slice 80) and First-Fit
+time 0ms: Process 'A' added to the system [Q A]
+time 0ms: Simulated Memory:
+================================
+AA..............................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'B' added to the system [Q A B]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'E' added to the system [Q A B E]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE..
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'G' added to the system [Q A B E G]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGG.........................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'I' added to the system [Q A B E G I]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIII.............
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'J' added to the system [Q A B E G I J]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJ...............
+................................
+................................
+................................
+................................
+================================
+time 13ms: Process 'A' started using the CPU [Q B E G I J]
+time 93ms: Process 'A' preempted due to time slice expiration [Q B E G I J A]
+time 106ms: Process 'B' started using the CPU [Q E G I J A]
+time 186ms: Process 'B' preempted due to time slice expiration [Q E G I J A B]
+time 199ms: Process 'E' started using the CPU [Q G I J A B]
+time 250ms: Process 'F' added to the system [Q G I J A B F]
+time 250ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+................................
+................................
+................................
+................................
+================================
+time 279ms: Process 'E' preempted due to time slice expiration [Q G I J A B F E]
+time 292ms: Process 'G' started using the CPU [Q I J A B F E]
+time 300ms: Process 'H' added to the system [Q I J A B F E H]
+time 300ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHH....
+................................
+................................
+================================
+time 300ms: Process 'M' added to the system [Q I J A B F E H M]
+time 300ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMM...........
+................................
+================================
+time 350ms: Process 'N' added to the system [Q I J A B F E H M N]
+time 350ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNN........
+................................
+================================
+time 372ms: Process 'G' preempted due to time slice expiration [Q I J A B F E H M N G]
+time 385ms: Process 'I' started using the CPU [Q J A B F E H M N G]
+time 434ms: Process 'I' completed its CPU burst [Q J A B F E H M N G]
+time 434ms: Process 'I' performing I/O [Q J A B F E H M N G]
+time 447ms: Process 'J' started using the CPU [Q A B F E H M N G]
+time 464ms: Process 'I' completed I/O [Q A B F E H M N G I]
+time 496ms: Process 'J' terminated [Q A B F E H M N G I]
+time 500ms: Process 'D' added to the system [Q A B F E H M N G I D]
+time 500ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIDDDDDDDDDD...
+.................FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNN........
+................................
+================================
+time 509ms: Process 'A' started using the CPU [Q B F E H M N G I D]
+time 589ms: Process 'A' preempted due to time slice expiration [Q B F E H M N G I D A]
+time 600ms: Process 'C' added to the system [Q B F E H M N G I D A C]
+time 600ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIDDDDDDDDDDCCC
+CCCCC............FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNN........
+................................
+================================
+time 600ms: Process 'L' added to the system [Q B F E H M N G I D A C L]
+time 600ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIDDDDDDDDDDCCC
+CCCCC............FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNLLLLLLLL
+LLLLLLLLLLLL....................
+================================
+time 602ms: Process 'O' added to the system [Q B F E H M N G I D A C L O]
+time 602ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIDDDDDDDDDDCCC
+CCCCCOOO.........FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNLLLLLLLL
+LLLLLLLLLLLL....................
+================================
+time 602ms: Process 'B' started using the CPU [Q F E H M N G I D A C L O]
+time 682ms: Process 'B' preempted due to time slice expiration [Q F E H M N G I D A C L O B]
+time 695ms: Process 'F' started using the CPU [Q E H M N G I D A C L O B]
+time 775ms: Process 'F' preempted due to time slice expiration [Q E H M N G I D A C L O B F]
+time 788ms: Process 'E' started using the CPU [Q H M N G I D A C L O B F]
+time 868ms: Process 'E' preempted due to time slice expiration [Q H M N G I D A C L O B F E]
+time 881ms: Process 'H' started using the CPU [Q M N G I D A C L O B F E]
+time 961ms: Process 'H' preempted due to time slice expiration [Q M N G I D A C L O B F E H]
+time 974ms: Process 'M' started using the CPU [Q N G I D A C L O B F E H]
+time 1054ms: Process 'M' preempted due to time slice expiration [Q N G I D A C L O B F E H M]
+time 1067ms: Process 'N' started using the CPU [Q G I D A C L O B F E H M]
+time 1147ms: Process 'N' preempted due to time slice expiration [Q G I D A C L O B F E H M N]
+time 1160ms: Process 'G' started using the CPU [Q I D A C L O B F E H M N]
+time 1199ms: Process 'G' completed its CPU burst [Q I D A C L O B F E H M N]
+time 1199ms: Process 'G' performing I/O [Q I D A C L O B F E H M N]
+time 1212ms: Process 'I' started using the CPU [Q D A C L O B F E H M N]
+time 1262ms: Process 'I' completed its CPU burst [Q D A C L O B F E H M N]
+time 1262ms: Process 'I' performing I/O [Q D A C L O B F E H M N]
+time 1275ms: Process 'D' started using the CPU [Q A C L O B F E H M N]
+time 1292ms: Process 'I' completed I/O [Q A C L O B F E H M N I]
+time 1299ms: Process 'G' completed I/O [Q A C L O B F E H M N I G]
+time 1355ms: Process 'D' preempted due to time slice expiration [Q A C L O B F E H M N I G D]
+time 1368ms: Process 'A' started using the CPU [Q C L O B F E H M N I G D]
+time 1375ms: Process 'A' terminated [Q C L O B F E H M N I G D]
+time 1388ms: Process 'C' started using the CPU [Q L O B F E H M N I G D]
+time 1467ms: Process 'C' completed its CPU burst [Q L O B F E H M N I G D]
+time 1467ms: Process 'C' performing I/O [Q L O B F E H M N I G D]
+time 1480ms: Process 'L' started using the CPU [Q O B F E H M N I G D]
+time 1560ms: Process 'L' preempted due to time slice expiration [Q O B F E H M N I G D L]
+time 1573ms: Process 'O' started using the CPU [Q B F E H M N I G D L]
+time 1653ms: Process 'O' preempted due to time slice expiration [Q B F E H M N I G D L O]
+time 1666ms: Process 'B' started using the CPU [Q F E H M N I G D L O]
+time 1746ms: Process 'B' preempted due to time slice expiration [Q F E H M N I G D L O B]
+time 1759ms: Process 'F' started using the CPU [Q E H M N I G D L O B]
+time 1798ms: Process 'F' completed its CPU burst [Q E H M N I G D L O B]
+time 1798ms: Process 'F' performing I/O [Q E H M N I G D L O B]
+time 1811ms: Process 'E' started using the CPU [Q H M N I G D L O B]
+time 1878ms: Process 'F' completed I/O [Q H M N I G D L O B F]
+time 1891ms: Process 'E' preempted due to time slice expiration [Q H M N I G D L O B F E]
+time 1904ms: Process 'H' started using the CPU [Q M N I G D L O B F E]
+time 1923ms: Process 'H' completed its CPU burst [Q M N I G D L O B F E]
+time 1923ms: Process 'H' performing I/O [Q M N I G D L O B F E]
+time 1936ms: Process 'M' started using the CPU [Q N I G D L O B F E]
+time 2016ms: Process 'M' preempted due to time slice expiration [Q N I G D L O B F E M]
+time 2023ms: Process 'H' completed I/O [Q N I G D L O B F E M H]
+time 2029ms: Process 'N' started using the CPU [Q I G D L O B F E M H]
+time 2109ms: Process 'N' preempted due to time slice expiration [Q I G D L O B F E M H N]
+time 2122ms: Process 'I' started using the CPU [Q G D L O B F E M H N]
+time 2172ms: Process 'I' terminated [Q G D L O B F E M H N]
+time 2185ms: Process 'G' started using the CPU [Q D L O B F E M H N]
+time 2266ms: Process 'G' preempted due to time slice expiration [Q D L O B F E M H N G]
+time 2279ms: Process 'D' started using the CPU [Q L O B F E M H N G]
+time 2288ms: Process 'D' completed its CPU burst [Q L O B F E M H N G]
+time 2288ms: Process 'D' performing I/O [Q L O B F E M H N G]
+time 2301ms: Process 'L' started using the CPU [Q O B F E M H N G]
+time 2320ms: Process 'L' completed its CPU burst [Q O B F E M H N G]
+time 2320ms: Process 'L' performing I/O [Q O B F E M H N G]
+time 2330ms: Process 'L' completed I/O [Q O B F E M H N G L]
+time 2333ms: Process 'O' started using the CPU [Q B F E M H N G L]
+time 2352ms: Process 'O' terminated [Q B F E M H N G L]
+time 2365ms: Process 'B' started using the CPU [Q F E M H N G L]
+time 2378ms: Process 'D' completed I/O [Q F E M H N G L D]
+time 2445ms: Process 'B' preempted due to time slice expiration [Q F E M H N G L D B]
+time 2458ms: Process 'F' started using the CPU [Q E M H N G L D B]
+time 2539ms: Process 'F' preempted due to time slice expiration [Q E M H N G L D B F]
+time 2552ms: Process 'E' started using the CPU [Q M H N G L D B F]
+time 2632ms: Process 'E' preempted due to time slice expiration [Q M H N G L D B F E]
+time 2645ms: Process 'M' started using the CPU [Q H N G L D B F E]
+time 2725ms: Process 'M' preempted due to time slice expiration [Q H N G L D B F E M]
+time 2738ms: Process 'H' started using the CPU [Q N G L D B F E M]
+time 2819ms: Process 'H' preempted due to time slice expiration [Q N G L D B F E M H]
+time 2832ms: Process 'N' started using the CPU [Q G L D B F E M H]
+time 2871ms: Process 'N' completed its CPU burst [Q G L D B F E M H]
+time 2871ms: Process 'N' performing I/O [Q G L D B F E M H]
+time 2884ms: Process 'G' started using the CPU [Q L D B F E M H]
+time 2923ms: Process 'G' terminated [Q L D B F E M H]
+time 2936ms: Process 'L' started using the CPU [Q D B F E M H]
+time 2971ms: Process 'N' completed I/O [Q D B F E M H N]
+time 3017ms: Process 'L' preempted due to time slice expiration [Q D B F E M H N L]
+time 3030ms: Process 'D' started using the CPU [Q B F E M H N L]
+time 3111ms: Process 'D' preempted due to time slice expiration [Q B F E M H N L D]
+time 3124ms: Process 'B' started using the CPU [Q F E M H N L D]
+time 3167ms: Process 'C' completed I/O [Q F E M H N L D C]
+time 3204ms: Process 'B' preempted due to time slice expiration [Q F E M H N L D C B]
+time 3217ms: Process 'F' started using the CPU [Q E M H N L D C B]
+time 3256ms: Process 'F' completed its CPU burst [Q E M H N L D C B]
+time 3256ms: Process 'F' performing I/O [Q E M H N L D C B]
+time 3269ms: Process 'E' started using the CPU [Q M H N L D C B]
+time 3336ms: Process 'F' completed I/O [Q M H N L D C B F]
+time 3349ms: Process 'E' preempted due to time slice expiration [Q M H N L D C B F E]
+time 3362ms: Process 'M' started using the CPU [Q H N L D C B F E]
+time 3442ms: Process 'M' preempted due to time slice expiration [Q H N L D C B F E M]
+time 3455ms: Process 'H' started using the CPU [Q N L D C B F E M]
+time 3474ms: Process 'H' completed its CPU burst [Q N L D C B F E M]
+time 3474ms: Process 'H' performing I/O [Q N L D C B F E M]
+time 3487ms: Process 'N' started using the CPU [Q L D C B F E M]
+time 3568ms: Process 'N' preempted due to time slice expiration [Q L D C B F E M N]
+time 3574ms: Process 'H' completed I/O [Q L D C B F E M N H]
+time 3581ms: Process 'L' started using the CPU [Q D C B F E M N H]
+time 3600ms: Process 'L' completed its CPU burst [Q D C B F E M N H]
+time 3600ms: Process 'L' performing I/O [Q D C B F E M N H]
+time 3610ms: Process 'L' completed I/O [Q D C B F E M N H L]
+time 3613ms: Process 'D' started using the CPU [Q C B F E M N H L]
+time 3622ms: Process 'D' completed its CPU burst [Q C B F E M N H L]
+time 3622ms: Process 'D' performing I/O [Q C B F E M N H L]
+time 3635ms: Process 'C' started using the CPU [Q B F E M N H L]
+time 3712ms: Process 'D' completed I/O [Q B F E M N H L D]
+time 3715ms: Process 'C' completed its CPU burst [Q B F E M N H L D]
+time 3715ms: Process 'C' performing I/O [Q B F E M N H L D]
+time 3728ms: Process 'B' started using the CPU [Q F E M N H L D]
+time 3808ms: Process 'B' preempted due to time slice expiration [Q F E M N H L D B]
+time 3821ms: Process 'F' started using the CPU [Q E M N H L D B]
+time 3902ms: Process 'F' preempted due to time slice expiration [Q E M N H L D B F]
+time 3915ms: Process 'E' started using the CPU [Q M N H L D B F]
+time 3934ms: Process 'E' completed its CPU burst [Q M N H L D B F]
+time 3934ms: Process 'E' performing I/O [Q M N H L D B F]
+time 3947ms: Process 'M' started using the CPU [Q N H L D B F]
+time 4024ms: Process 'E' completed I/O [Q N H L D B F E]
+time 4027ms: Process 'M' preempted due to time slice expiration [Q N H L D B F E M]
+time 4040ms: Process 'N' started using the CPU [Q H L D B F E M]
+time 4120ms: Process 'N' preempted due to time slice expiration [Q H L D B F E M N]
+time 4133ms: Process 'H' started using the CPU [Q L D B F E M N]
+time 4214ms: Process 'H' preempted due to time slice expiration [Q L D B F E M N H]
+time 4227ms: Process 'L' started using the CPU [Q D B F E M N H]
+time 4308ms: Process 'L' preempted due to time slice expiration [Q D B F E M N H L]
+time 4321ms: Process 'D' started using the CPU [Q B F E M N H L]
+time 4402ms: Process 'D' preempted due to time slice expiration [Q B F E M N H L D]
+time 4415ms: Process 'B' started using the CPU [Q F E M N H L D]
+time 4434ms: Process 'B' terminated [Q F E M N H L D]
+time 4447ms: Process 'F' started using the CPU [Q E M N H L D]
+time 4486ms: Process 'F' completed its CPU burst [Q E M N H L D]
+time 4486ms: Process 'F' performing I/O [Q E M N H L D]
+time 4499ms: Process 'E' started using the CPU [Q M N H L D]
+time 4566ms: Process 'F' completed I/O [Q M N H L D F]
+time 4580ms: Process 'E' preempted due to time slice expiration [Q M N H L D F E]
+time 4593ms: Process 'M' started using the CPU [Q N H L D F E]
+time 4673ms: Process 'M' preempted due to time slice expiration [Q N H L D F E M]
+time 4686ms: Process 'N' started using the CPU [Q H L D F E M]
+time 4725ms: Process 'N' terminated [Q H L D F E M]
+time 4738ms: Process 'H' started using the CPU [Q L D F E M]
+time 4757ms: Process 'H' completed its CPU burst [Q L D F E M]
+time 4757ms: Process 'H' performing I/O [Q L D F E M]
+time 4770ms: Process 'L' started using the CPU [Q D F E M]
+time 4789ms: Process 'L' terminated [Q D F E M]
+time 4802ms: Process 'D' started using the CPU [Q F E M]
+time 4811ms: Process 'D' completed its CPU burst [Q F E M]
+time 4811ms: Process 'D' performing I/O [Q F E M]
+time 4824ms: Process 'F' started using the CPU [Q E M]
+time 4857ms: Process 'H' completed I/O [Q E M H]
+time 4901ms: Process 'D' completed I/O [Q E M H D]
+time 4905ms: Process 'F' preempted due to time slice expiration [Q E M H D F]
+time 4918ms: Process 'E' started using the CPU [Q M H D F]
+time 4998ms: Process 'E' preempted due to time slice expiration [Q M H D F E]
+time 5011ms: Process 'M' started using the CPU [Q H D F E]
+time 5091ms: Process 'M' preempted due to time slice expiration [Q H D F E M]
+time 5104ms: Process 'H' started using the CPU [Q D F E M]
+time 5185ms: Process 'H' preempted due to time slice expiration [Q D F E M H]
+time 5198ms: Process 'D' started using the CPU [Q F E M H]
+time 5279ms: Process 'D' preempted due to time slice expiration [Q F E M H D]
+time 5292ms: Process 'F' started using the CPU [Q E M H D]
+time 5331ms: Process 'F' completed its CPU burst [Q E M H D]
+time 5331ms: Process 'F' performing I/O [Q E M H D]
+time 5344ms: Process 'E' started using the CPU [Q M H D]
+time 5411ms: Process 'F' completed I/O [Q M H D F]
+time 5415ms: Process 'C' completed I/O [Q M H D F C]
+time 5424ms: Process 'E' preempted due to time slice expiration [Q M H D F C E]
+time 5437ms: Process 'M' started using the CPU [Q H D F C E]
+time 5517ms: Process 'M' preempted due to time slice expiration [Q H D F C E M]
+time 5530ms: Process 'H' started using the CPU [Q D F C E M]
+time 5549ms: Process 'H' terminated [Q D F C E M]
+time 5562ms: Process 'D' started using the CPU [Q F C E M]
+time 5571ms: Process 'D' completed its CPU burst [Q F C E M]
+time 5571ms: Process 'D' performing I/O [Q F C E M]
+time 5584ms: Process 'F' started using the CPU [Q C E M]
+time 5661ms: Process 'D' completed I/O [Q C E M D]
+time 5665ms: Process 'F' preempted due to time slice expiration [Q C E M D F]
+time 5678ms: Process 'C' started using the CPU [Q E M D F]
+time 5758ms: Process 'C' completed its CPU burst [Q E M D F]
+time 5758ms: Process 'C' performing I/O [Q E M D F]
+time 5771ms: Process 'E' started using the CPU [Q M D F]
+time 5851ms: Process 'E' preempted due to time slice expiration [Q M D F E]
+time 5864ms: Process 'M' started using the CPU [Q D F E]
+time 5944ms: Process 'M' preempted due to time slice expiration [Q D F E M]
+time 5957ms: Process 'D' started using the CPU [Q F E M]
+time 6038ms: Process 'D' preempted due to time slice expiration [Q F E M D]
+time 6051ms: Process 'F' started using the CPU [Q E M D]
+time 6090ms: Process 'F' terminated [Q E M D]
+time 6103ms: Process 'E' started using the CPU [Q M D]
+time 6183ms: Process 'E' preempted due to time slice expiration [Q M D E]
+time 6196ms: Process 'M' started using the CPU [Q D E]
+time 6276ms: Process 'M' preempted due to time slice expiration [Q D E M]
+time 6289ms: Process 'D' started using the CPU [Q E M]
+time 6298ms: Process 'D' terminated [Q E M]
+time 6311ms: Process 'E' started using the CPU [Q M]
+time 6330ms: Process 'E' completed its CPU burst [Q M]
+time 6330ms: Process 'E' performing I/O [Q M]
+time 6343ms: Process 'M' started using the CPU [Q]
+time 6420ms: Process 'E' completed I/O [Q E]
+time 6423ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 6436ms: Process 'E' started using the CPU [Q M]
+time 6517ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 6530ms: Process 'M' started using the CPU [Q E]
+time 6610ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 6623ms: Process 'E' started using the CPU [Q M]
+time 6703ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 6716ms: Process 'M' started using the CPU [Q E]
+time 6796ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 6809ms: Process 'E' started using the CPU [Q M]
+time 6889ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 6902ms: Process 'M' started using the CPU [Q E]
+time 6982ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 6995ms: Process 'E' started using the CPU [Q M]
+time 7075ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 7088ms: Process 'M' started using the CPU [Q E]
+time 7168ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 7181ms: Process 'E' started using the CPU [Q M]
+time 7261ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 7274ms: Process 'M' started using the CPU [Q E]
+time 7354ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 7367ms: Process 'E' started using the CPU [Q M]
+time 7386ms: Process 'E' completed its CPU burst [Q M]
+time 7386ms: Process 'E' performing I/O [Q M]
+time 7399ms: Process 'M' started using the CPU [Q]
+time 7458ms: Process 'C' completed I/O [Q C]
+time 7476ms: Process 'E' completed I/O [Q C E]
+time 7479ms: Process 'M' preempted due to time slice expiration [Q C E M]
+time 7492ms: Process 'C' started using the CPU [Q E M]
+time 7572ms: Process 'C' completed its CPU burst [Q E M]
+time 7572ms: Process 'C' performing I/O [Q E M]
+time 7585ms: Process 'E' started using the CPU [Q M]
+time 7666ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 7679ms: Process 'M' started using the CPU [Q E]
+time 7759ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 7772ms: Process 'E' started using the CPU [Q M]
+time 7852ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 7865ms: Process 'M' started using the CPU [Q E]
+time 7945ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 7958ms: Process 'E' started using the CPU [Q M]
+time 8038ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8051ms: Process 'M' started using the CPU [Q E]
+time 8131ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8144ms: Process 'E' started using the CPU [Q M]
+time 8224ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8237ms: Process 'M' started using the CPU [Q E]
+time 8317ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8330ms: Process 'E' started using the CPU [Q M]
+time 8410ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8423ms: Process 'M' started using the CPU [Q E]
+time 8442ms: Process 'M' completed its CPU burst [Q E]
+time 8442ms: Process 'M' performing I/O [Q E]
+time 8455ms: Process 'E' started using the CPU [Q]
+time 8474ms: Process 'E' completed its CPU burst [Q]
+time 8474ms: Process 'E' performing I/O [Q]
+time 8542ms: Process 'M' completed I/O [Q M]
+time 8555ms: Process 'M' started using the CPU [Q]
+time 8564ms: Process 'E' completed I/O [Q E]
+time 8636ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8649ms: Process 'E' started using the CPU [Q M]
+time 8730ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8743ms: Process 'M' started using the CPU [Q E]
+time 8823ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8836ms: Process 'E' started using the CPU [Q M]
+time 8916ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8929ms: Process 'M' started using the CPU [Q E]
+time 9009ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9022ms: Process 'E' started using the CPU [Q M]
+time 9102ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 9115ms: Process 'M' started using the CPU [Q E]
+time 9195ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9208ms: Process 'E' started using the CPU [Q M]
+time 9272ms: Process 'C' completed I/O [Q M C]
+time 9288ms: Process 'E' preempted due to time slice expiration [Q M C E]
+time 9301ms: Process 'M' started using the CPU [Q C E]
+time 9381ms: Process 'M' preempted due to time slice expiration [Q C E M]
+time 9394ms: Process 'C' started using the CPU [Q E M]
+time 9474ms: Process 'C' terminated [Q E M]
+time 9487ms: Process 'E' started using the CPU [Q M]
+time 9567ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 9580ms: Process 'M' started using the CPU [Q E]
+time 9660ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9673ms: Process 'E' started using the CPU [Q M]
+time 9692ms: Process 'E' terminated [Q M]
+time 9705ms: Process 'M' started using the CPU [Q]
+time 10924ms: Process 'M' terminated [Q]
+time 10924ms: Simulator for RR and First-Fit ended [Q]
+
+time 0ms: Simulator started for RR (t_slice 80) and Next-Fit
+time 0ms: Process 'A' added to the system [Q A]
+time 0ms: Simulated Memory:
+================================
+AA..............................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'B' added to the system [Q A B]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'E' added to the system [Q A B E]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE..
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'G' added to the system [Q A B E G]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGG.........................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'I' added to the system [Q A B E G I]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIII.............
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'J' added to the system [Q A B E G I J]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJ...............
+................................
+................................
+................................
+................................
+================================
+time 13ms: Process 'A' started using the CPU [Q B E G I J]
+time 93ms: Process 'A' preempted due to time slice expiration [Q B E G I J A]
+time 106ms: Process 'B' started using the CPU [Q E G I J A]
+time 186ms: Process 'B' preempted due to time slice expiration [Q E G I J A B]
+time 199ms: Process 'E' started using the CPU [Q G I J A B]
+time 250ms: Process 'F' added to the system [Q G I J A B F]
+time 250ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+................................
+................................
+................................
+................................
+================================
+time 279ms: Process 'E' preempted due to time slice expiration [Q G I J A B F E]
+time 292ms: Process 'G' started using the CPU [Q I J A B F E]
+time 300ms: Process 'H' added to the system [Q I J A B F E H]
+time 300ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHH....
+................................
+................................
+================================
+time 300ms: Process 'M' added to the system [Q I J A B F E H M]
+time 300ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMM...........
+................................
+================================
+time 350ms: Process 'N' added to the system [Q I J A B F E H M N]
+time 350ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNN........
+................................
+================================
+time 372ms: Process 'G' preempted due to time slice expiration [Q I J A B F E H M N G]
+time 385ms: Process 'I' started using the CPU [Q J A B F E H M N G]
+time 434ms: Process 'I' completed its CPU burst [Q J A B F E H M N G]
+time 434ms: Process 'I' performing I/O [Q J A B F E H M N G]
+time 447ms: Process 'J' started using the CPU [Q A B F E H M N G]
+time 464ms: Process 'I' completed I/O [Q A B F E H M N G I]
+time 496ms: Process 'J' terminated [Q A B F E H M N G I]
+time 500ms: Process 'D' added to the system [Q A B F E H M N G I D]
+time 500ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIII.............
+.................FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNDDDDDDDD
+DD..............................
+================================
+time 509ms: Process 'A' started using the CPU [Q B F E H M N G I D]
+time 589ms: Process 'A' preempted due to time slice expiration [Q B F E H M N G I D A]
+time 600ms: Process 'C' added to the system [Q B F E H M N G I D A C]
+time 600ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIII.............
+.................FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNDDDDDDDD
+DDCCCCCCCC......................
+================================
+time 600ms: Process 'L' added to the system [Q B F E H M N G I D A C L]
+time 600ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIII.............
+.................FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNDDDDDDDD
+DDCCCCCCCCLLLLLLLLLLLLLLLLLLLL..
+================================
+time 602ms: Process 'O' unable to be added; lack of memory;
+time 602ms: Starting defragmentation (suspending all processes)
+time 602ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIII.............
+.................FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNDDDDDDDD
+DDCCCCCCCCLLLLLLLLLLLLLLLLLLLL..
+================================
+time 2012ms: Completed defragmentation (moved 141 units of memory)
+time 2012ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIFFFFFFFFFFFFF
+FFHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMM
+MMMMMMMMMMMMMMMMMMMMMMMNNNDDDDDD
+DDDDCCCCCCCCLLLLLLLLLLLLLLLLLLLL
+................................
+================================
+time 2012ms: Process 'O' added to the system [Q B F E H M N G I D A C L O]
+time 2012ms: Process 'B' started using the CPU [Q F E H M N G I D A C L O]
+time 2092ms: Process 'B' preempted due to time slice expiration [Q F E H M N G I D A C L O B]
+time 2105ms: Process 'F' started using the CPU [Q E H M N G I D A C L O B]
+time 2185ms: Process 'F' preempted due to time slice expiration [Q E H M N G I D A C L O B F]
+time 2198ms: Process 'E' started using the CPU [Q H M N G I D A C L O B F]
+time 2278ms: Process 'E' preempted due to time slice expiration [Q H M N G I D A C L O B F E]
+time 2291ms: Process 'H' started using the CPU [Q M N G I D A C L O B F E]
+time 2371ms: Process 'H' preempted due to time slice expiration [Q M N G I D A C L O B F E H]
+time 2384ms: Process 'M' started using the CPU [Q N G I D A C L O B F E H]
+time 2464ms: Process 'M' preempted due to time slice expiration [Q N G I D A C L O B F E H M]
+time 2477ms: Process 'N' started using the CPU [Q G I D A C L O B F E H M]
+time 2557ms: Process 'N' preempted due to time slice expiration [Q G I D A C L O B F E H M N]
+time 2570ms: Process 'G' started using the CPU [Q I D A C L O B F E H M N]
+time 2609ms: Process 'G' completed its CPU burst [Q I D A C L O B F E H M N]
+time 2609ms: Process 'G' performing I/O [Q I D A C L O B F E H M N]
+time 2622ms: Process 'I' started using the CPU [Q D A C L O B F E H M N]
+time 2672ms: Process 'I' completed its CPU burst [Q D A C L O B F E H M N]
+time 2672ms: Process 'I' performing I/O [Q D A C L O B F E H M N]
+time 2685ms: Process 'D' started using the CPU [Q A C L O B F E H M N]
+time 2702ms: Process 'I' completed I/O [Q A C L O B F E H M N I]
+time 2709ms: Process 'G' completed I/O [Q A C L O B F E H M N I G]
+time 2765ms: Process 'D' preempted due to time slice expiration [Q A C L O B F E H M N I G D]
+time 2778ms: Process 'A' started using the CPU [Q C L O B F E H M N I G D]
+time 2785ms: Process 'A' terminated [Q C L O B F E H M N I G D]
+time 2798ms: Process 'C' started using the CPU [Q L O B F E H M N I G D]
+time 2877ms: Process 'C' completed its CPU burst [Q L O B F E H M N I G D]
+time 2877ms: Process 'C' performing I/O [Q L O B F E H M N I G D]
+time 2890ms: Process 'L' started using the CPU [Q O B F E H M N I G D]
+time 2970ms: Process 'L' preempted due to time slice expiration [Q O B F E H M N I G D L]
+time 2983ms: Process 'O' started using the CPU [Q B F E H M N I G D L]
+time 3063ms: Process 'O' preempted due to time slice expiration [Q B F E H M N I G D L O]
+time 3076ms: Process 'B' started using the CPU [Q F E H M N I G D L O]
+time 3156ms: Process 'B' preempted due to time slice expiration [Q F E H M N I G D L O B]
+time 3169ms: Process 'F' started using the CPU [Q E H M N I G D L O B]
+time 3208ms: Process 'F' completed its CPU burst [Q E H M N I G D L O B]
+time 3208ms: Process 'F' performing I/O [Q E H M N I G D L O B]
+time 3221ms: Process 'E' started using the CPU [Q H M N I G D L O B]
+time 3288ms: Process 'F' completed I/O [Q H M N I G D L O B F]
+time 3301ms: Process 'E' preempted due to time slice expiration [Q H M N I G D L O B F E]
+time 3314ms: Process 'H' started using the CPU [Q M N I G D L O B F E]
+time 3333ms: Process 'H' completed its CPU burst [Q M N I G D L O B F E]
+time 3333ms: Process 'H' performing I/O [Q M N I G D L O B F E]
+time 3346ms: Process 'M' started using the CPU [Q N I G D L O B F E]
+time 3426ms: Process 'M' preempted due to time slice expiration [Q N I G D L O B F E M]
+time 3433ms: Process 'H' completed I/O [Q N I G D L O B F E M H]
+time 3439ms: Process 'N' started using the CPU [Q I G D L O B F E M H]
+time 3519ms: Process 'N' preempted due to time slice expiration [Q I G D L O B F E M H N]
+time 3532ms: Process 'I' started using the CPU [Q G D L O B F E M H N]
+time 3582ms: Process 'I' terminated [Q G D L O B F E M H N]
+time 3595ms: Process 'G' started using the CPU [Q D L O B F E M H N]
+time 3676ms: Process 'G' preempted due to time slice expiration [Q D L O B F E M H N G]
+time 3689ms: Process 'D' started using the CPU [Q L O B F E M H N G]
+time 3698ms: Process 'D' completed its CPU burst [Q L O B F E M H N G]
+time 3698ms: Process 'D' performing I/O [Q L O B F E M H N G]
+time 3711ms: Process 'L' started using the CPU [Q O B F E M H N G]
+time 3730ms: Process 'L' completed its CPU burst [Q O B F E M H N G]
+time 3730ms: Process 'L' performing I/O [Q O B F E M H N G]
+time 3740ms: Process 'L' completed I/O [Q O B F E M H N G L]
+time 3743ms: Process 'O' started using the CPU [Q B F E M H N G L]
+time 3762ms: Process 'O' terminated [Q B F E M H N G L]
+time 3775ms: Process 'B' started using the CPU [Q F E M H N G L]
+time 3788ms: Process 'D' completed I/O [Q F E M H N G L D]
+time 3855ms: Process 'B' preempted due to time slice expiration [Q F E M H N G L D B]
+time 3868ms: Process 'F' started using the CPU [Q E M H N G L D B]
+time 3949ms: Process 'F' preempted due to time slice expiration [Q E M H N G L D B F]
+time 3962ms: Process 'E' started using the CPU [Q M H N G L D B F]
+time 4042ms: Process 'E' preempted due to time slice expiration [Q M H N G L D B F E]
+time 4055ms: Process 'M' started using the CPU [Q H N G L D B F E]
+time 4135ms: Process 'M' preempted due to time slice expiration [Q H N G L D B F E M]
+time 4148ms: Process 'H' started using the CPU [Q N G L D B F E M]
+time 4229ms: Process 'H' preempted due to time slice expiration [Q N G L D B F E M H]
+time 4242ms: Process 'N' started using the CPU [Q G L D B F E M H]
+time 4281ms: Process 'N' completed its CPU burst [Q G L D B F E M H]
+time 4281ms: Process 'N' performing I/O [Q G L D B F E M H]
+time 4294ms: Process 'G' started using the CPU [Q L D B F E M H]
+time 4333ms: Process 'G' terminated [Q L D B F E M H]
+time 4346ms: Process 'L' started using the CPU [Q D B F E M H]
+time 4381ms: Process 'N' completed I/O [Q D B F E M H N]
+time 4427ms: Process 'L' preempted due to time slice expiration [Q D B F E M H N L]
+time 4440ms: Process 'D' started using the CPU [Q B F E M H N L]
+time 4521ms: Process 'D' preempted due to time slice expiration [Q B F E M H N L D]
+time 4534ms: Process 'B' started using the CPU [Q F E M H N L D]
+time 4577ms: Process 'C' completed I/O [Q F E M H N L D C]
+time 4614ms: Process 'B' preempted due to time slice expiration [Q F E M H N L D C B]
+time 4627ms: Process 'F' started using the CPU [Q E M H N L D C B]
+time 4666ms: Process 'F' completed its CPU burst [Q E M H N L D C B]
+time 4666ms: Process 'F' performing I/O [Q E M H N L D C B]
+time 4679ms: Process 'E' started using the CPU [Q M H N L D C B]
+time 4746ms: Process 'F' completed I/O [Q M H N L D C B F]
+time 4759ms: Process 'E' preempted due to time slice expiration [Q M H N L D C B F E]
+time 4772ms: Process 'M' started using the CPU [Q H N L D C B F E]
+time 4852ms: Process 'M' preempted due to time slice expiration [Q H N L D C B F E M]
+time 4865ms: Process 'H' started using the CPU [Q N L D C B F E M]
+time 4884ms: Process 'H' completed its CPU burst [Q N L D C B F E M]
+time 4884ms: Process 'H' performing I/O [Q N L D C B F E M]
+time 4897ms: Process 'N' started using the CPU [Q L D C B F E M]
+time 4978ms: Process 'N' preempted due to time slice expiration [Q L D C B F E M N]
+time 4984ms: Process 'H' completed I/O [Q L D C B F E M N H]
+time 4991ms: Process 'L' started using the CPU [Q D C B F E M N H]
+time 5010ms: Process 'L' completed its CPU burst [Q D C B F E M N H]
+time 5010ms: Process 'L' performing I/O [Q D C B F E M N H]
+time 5020ms: Process 'L' completed I/O [Q D C B F E M N H L]
+time 5023ms: Process 'D' started using the CPU [Q C B F E M N H L]
+time 5032ms: Process 'D' completed its CPU burst [Q C B F E M N H L]
+time 5032ms: Process 'D' performing I/O [Q C B F E M N H L]
+time 5045ms: Process 'C' started using the CPU [Q B F E M N H L]
+time 5122ms: Process 'D' completed I/O [Q B F E M N H L D]
+time 5125ms: Process 'C' completed its CPU burst [Q B F E M N H L D]
+time 5125ms: Process 'C' performing I/O [Q B F E M N H L D]
+time 5138ms: Process 'B' started using the CPU [Q F E M N H L D]
+time 5218ms: Process 'B' preempted due to time slice expiration [Q F E M N H L D B]
+time 5231ms: Process 'F' started using the CPU [Q E M N H L D B]
+time 5312ms: Process 'F' preempted due to time slice expiration [Q E M N H L D B F]
+time 5325ms: Process 'E' started using the CPU [Q M N H L D B F]
+time 5344ms: Process 'E' completed its CPU burst [Q M N H L D B F]
+time 5344ms: Process 'E' performing I/O [Q M N H L D B F]
+time 5357ms: Process 'M' started using the CPU [Q N H L D B F]
+time 5434ms: Process 'E' completed I/O [Q N H L D B F E]
+time 5437ms: Process 'M' preempted due to time slice expiration [Q N H L D B F E M]
+time 5450ms: Process 'N' started using the CPU [Q H L D B F E M]
+time 5530ms: Process 'N' preempted due to time slice expiration [Q H L D B F E M N]
+time 5543ms: Process 'H' started using the CPU [Q L D B F E M N]
+time 5624ms: Process 'H' preempted due to time slice expiration [Q L D B F E M N H]
+time 5637ms: Process 'L' started using the CPU [Q D B F E M N H]
+time 5718ms: Process 'L' preempted due to time slice expiration [Q D B F E M N H L]
+time 5731ms: Process 'D' started using the CPU [Q B F E M N H L]
+time 5812ms: Process 'D' preempted due to time slice expiration [Q B F E M N H L D]
+time 5825ms: Process 'B' started using the CPU [Q F E M N H L D]
+time 5844ms: Process 'B' terminated [Q F E M N H L D]
+time 5857ms: Process 'F' started using the CPU [Q E M N H L D]
+time 5896ms: Process 'F' completed its CPU burst [Q E M N H L D]
+time 5896ms: Process 'F' performing I/O [Q E M N H L D]
+time 5909ms: Process 'E' started using the CPU [Q M N H L D]
+time 5976ms: Process 'F' completed I/O [Q M N H L D F]
+time 5990ms: Process 'E' preempted due to time slice expiration [Q M N H L D F E]
+time 6003ms: Process 'M' started using the CPU [Q N H L D F E]
+time 6083ms: Process 'M' preempted due to time slice expiration [Q N H L D F E M]
+time 6096ms: Process 'N' started using the CPU [Q H L D F E M]
+time 6135ms: Process 'N' terminated [Q H L D F E M]
+time 6148ms: Process 'H' started using the CPU [Q L D F E M]
+time 6167ms: Process 'H' completed its CPU burst [Q L D F E M]
+time 6167ms: Process 'H' performing I/O [Q L D F E M]
+time 6180ms: Process 'L' started using the CPU [Q D F E M]
+time 6199ms: Process 'L' terminated [Q D F E M]
+time 6212ms: Process 'D' started using the CPU [Q F E M]
+time 6221ms: Process 'D' completed its CPU burst [Q F E M]
+time 6221ms: Process 'D' performing I/O [Q F E M]
+time 6234ms: Process 'F' started using the CPU [Q E M]
+time 6267ms: Process 'H' completed I/O [Q E M H]
+time 6311ms: Process 'D' completed I/O [Q E M H D]
+time 6315ms: Process 'F' preempted due to time slice expiration [Q E M H D F]
+time 6328ms: Process 'E' started using the CPU [Q M H D F]
+time 6408ms: Process 'E' preempted due to time slice expiration [Q M H D F E]
+time 6421ms: Process 'M' started using the CPU [Q H D F E]
+time 6501ms: Process 'M' preempted due to time slice expiration [Q H D F E M]
+time 6514ms: Process 'H' started using the CPU [Q D F E M]
+time 6595ms: Process 'H' preempted due to time slice expiration [Q D F E M H]
+time 6608ms: Process 'D' started using the CPU [Q F E M H]
+time 6689ms: Process 'D' preempted due to time slice expiration [Q F E M H D]
+time 6702ms: Process 'F' started using the CPU [Q E M H D]
+time 6741ms: Process 'F' completed its CPU burst [Q E M H D]
+time 6741ms: Process 'F' performing I/O [Q E M H D]
+time 6754ms: Process 'E' started using the CPU [Q M H D]
+time 6821ms: Process 'F' completed I/O [Q M H D F]
+time 6825ms: Process 'C' completed I/O [Q M H D F C]
+time 6834ms: Process 'E' preempted due to time slice expiration [Q M H D F C E]
+time 6847ms: Process 'M' started using the CPU [Q H D F C E]
+time 6927ms: Process 'M' preempted due to time slice expiration [Q H D F C E M]
+time 6940ms: Process 'H' started using the CPU [Q D F C E M]
+time 6959ms: Process 'H' terminated [Q D F C E M]
+time 6972ms: Process 'D' started using the CPU [Q F C E M]
+time 6981ms: Process 'D' completed its CPU burst [Q F C E M]
+time 6981ms: Process 'D' performing I/O [Q F C E M]
+time 6994ms: Process 'F' started using the CPU [Q C E M]
+time 7071ms: Process 'D' completed I/O [Q C E M D]
+time 7075ms: Process 'F' preempted due to time slice expiration [Q C E M D F]
+time 7088ms: Process 'C' started using the CPU [Q E M D F]
+time 7168ms: Process 'C' completed its CPU burst [Q E M D F]
+time 7168ms: Process 'C' performing I/O [Q E M D F]
+time 7181ms: Process 'E' started using the CPU [Q M D F]
+time 7261ms: Process 'E' preempted due to time slice expiration [Q M D F E]
+time 7274ms: Process 'M' started using the CPU [Q D F E]
+time 7354ms: Process 'M' preempted due to time slice expiration [Q D F E M]
+time 7367ms: Process 'D' started using the CPU [Q F E M]
+time 7448ms: Process 'D' preempted due to time slice expiration [Q F E M D]
+time 7461ms: Process 'F' started using the CPU [Q E M D]
+time 7500ms: Process 'F' terminated [Q E M D]
+time 7513ms: Process 'E' started using the CPU [Q M D]
+time 7593ms: Process 'E' preempted due to time slice expiration [Q M D E]
+time 7606ms: Process 'M' started using the CPU [Q D E]
+time 7686ms: Process 'M' preempted due to time slice expiration [Q D E M]
+time 7699ms: Process 'D' started using the CPU [Q E M]
+time 7708ms: Process 'D' terminated [Q E M]
+time 7721ms: Process 'E' started using the CPU [Q M]
+time 7740ms: Process 'E' completed its CPU burst [Q M]
+time 7740ms: Process 'E' performing I/O [Q M]
+time 7753ms: Process 'M' started using the CPU [Q]
+time 7830ms: Process 'E' completed I/O [Q E]
+time 7833ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 7846ms: Process 'E' started using the CPU [Q M]
+time 7927ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 7940ms: Process 'M' started using the CPU [Q E]
+time 8020ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8033ms: Process 'E' started using the CPU [Q M]
+time 8113ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8126ms: Process 'M' started using the CPU [Q E]
+time 8206ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8219ms: Process 'E' started using the CPU [Q M]
+time 8299ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8312ms: Process 'M' started using the CPU [Q E]
+time 8392ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8405ms: Process 'E' started using the CPU [Q M]
+time 8485ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8498ms: Process 'M' started using the CPU [Q E]
+time 8578ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8591ms: Process 'E' started using the CPU [Q M]
+time 8671ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8684ms: Process 'M' started using the CPU [Q E]
+time 8764ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8777ms: Process 'E' started using the CPU [Q M]
+time 8796ms: Process 'E' completed its CPU burst [Q M]
+time 8796ms: Process 'E' performing I/O [Q M]
+time 8809ms: Process 'M' started using the CPU [Q]
+time 8868ms: Process 'C' completed I/O [Q C]
+time 8886ms: Process 'E' completed I/O [Q C E]
+time 8889ms: Process 'M' preempted due to time slice expiration [Q C E M]
+time 8902ms: Process 'C' started using the CPU [Q E M]
+time 8982ms: Process 'C' completed its CPU burst [Q E M]
+time 8982ms: Process 'C' performing I/O [Q E M]
+time 8995ms: Process 'E' started using the CPU [Q M]
+time 9076ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 9089ms: Process 'M' started using the CPU [Q E]
+time 9169ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9182ms: Process 'E' started using the CPU [Q M]
+time 9262ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 9275ms: Process 'M' started using the CPU [Q E]
+time 9355ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9368ms: Process 'E' started using the CPU [Q M]
+time 9448ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 9461ms: Process 'M' started using the CPU [Q E]
+time 9541ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9554ms: Process 'E' started using the CPU [Q M]
+time 9634ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 9647ms: Process 'M' started using the CPU [Q E]
+time 9727ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9740ms: Process 'E' started using the CPU [Q M]
+time 9820ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 9833ms: Process 'M' started using the CPU [Q E]
+time 9852ms: Process 'M' completed its CPU burst [Q E]
+time 9852ms: Process 'M' performing I/O [Q E]
+time 9865ms: Process 'E' started using the CPU [Q]
+time 9884ms: Process 'E' completed its CPU burst [Q]
+time 9884ms: Process 'E' performing I/O [Q]
+time 9952ms: Process 'M' completed I/O [Q M]
+time 9965ms: Process 'M' started using the CPU [Q]
+time 9974ms: Process 'E' completed I/O [Q E]
+time 10046ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 10059ms: Process 'E' started using the CPU [Q M]
+time 10140ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 10153ms: Process 'M' started using the CPU [Q E]
+time 10233ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 10246ms: Process 'E' started using the CPU [Q M]
+time 10326ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 10339ms: Process 'M' started using the CPU [Q E]
+time 10419ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 10432ms: Process 'E' started using the CPU [Q M]
+time 10512ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 10525ms: Process 'M' started using the CPU [Q E]
+time 10605ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 10618ms: Process 'E' started using the CPU [Q M]
+time 10682ms: Process 'C' completed I/O [Q M C]
+time 10698ms: Process 'E' preempted due to time slice expiration [Q M C E]
+time 10711ms: Process 'M' started using the CPU [Q C E]
+time 10791ms: Process 'M' preempted due to time slice expiration [Q C E M]
+time 10804ms: Process 'C' started using the CPU [Q E M]
+time 10884ms: Process 'C' terminated [Q E M]
+time 10897ms: Process 'E' started using the CPU [Q M]
+time 10977ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 10990ms: Process 'M' started using the CPU [Q E]
+time 11070ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 11083ms: Process 'E' started using the CPU [Q M]
+time 11102ms: Process 'E' terminated [Q M]
+time 11115ms: Process 'M' started using the CPU [Q]
+time 12334ms: Process 'M' terminated [Q]
+time 12334ms: Simulator for RR and Next-Fit ended [Q]
+
+time 0ms: Simulator started for RR (t_slice 80) and Best-Fit
+time 0ms: Process 'A' added to the system [Q A]
+time 0ms: Simulated Memory:
+================================
+AA..............................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'B' added to the system [Q A B]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'E' added to the system [Q A B E]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE..
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'G' added to the system [Q A B E G]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGG.........................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'I' added to the system [Q A B E G I]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIII.............
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process 'J' added to the system [Q A B E G I J]
+time 0ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJ...............
+................................
+................................
+................................
+................................
+================================
+time 13ms: Process 'A' started using the CPU [Q B E G I J]
+time 93ms: Process 'A' preempted due to time slice expiration [Q B E G I J A]
+time 106ms: Process 'B' started using the CPU [Q E G I J A]
+time 186ms: Process 'B' preempted due to time slice expiration [Q E G I J A B]
+time 199ms: Process 'E' started using the CPU [Q G I J A B]
+time 250ms: Process 'F' added to the system [Q G I J A B F]
+time 250ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+................................
+................................
+................................
+................................
+================================
+time 279ms: Process 'E' preempted due to time slice expiration [Q G I J A B F E]
+time 292ms: Process 'G' started using the CPU [Q I J A B F E]
+time 300ms: Process 'H' added to the system [Q I J A B F E H]
+time 300ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHH....
+................................
+................................
+================================
+time 300ms: Process 'M' added to the system [Q I J A B F E H M]
+time 300ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMM...........
+................................
+================================
+time 350ms: Process 'N' added to the system [Q I J A B F E H M N]
+time 350ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNN........
+................................
+================================
+time 372ms: Process 'G' preempted due to time slice expiration [Q I J A B F E H M N G]
+time 385ms: Process 'I' started using the CPU [Q J A B F E H M N G]
+time 434ms: Process 'I' completed its CPU burst [Q J A B F E H M N G]
+time 434ms: Process 'I' performing I/O [Q J A B F E H M N G]
+time 447ms: Process 'J' started using the CPU [Q A B F E H M N G]
+time 464ms: Process 'I' completed I/O [Q A B F E H M N G I]
+time 496ms: Process 'J' terminated [Q A B F E H M N G I]
+time 500ms: Process 'D' added to the system [Q A B F E H M N G I D]
+time 500ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIDDDDDDDDDD...
+.................FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNN........
+................................
+================================
+time 509ms: Process 'A' started using the CPU [Q B F E H M N G I D]
+time 589ms: Process 'A' preempted due to time slice expiration [Q B F E H M N G I D A]
+time 600ms: Process 'C' added to the system [Q B F E H M N G I D A C]
+time 600ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIDDDDDDDDDDCCC
+CCCCC............FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNN........
+................................
+================================
+time 600ms: Process 'L' added to the system [Q B F E H M N G I D A C L]
+time 600ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIDDDDDDDDDDCCC
+CCCCC............FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNLLLLLLLL
+LLLLLLLLLLLL....................
+================================
+time 602ms: Process 'O' added to the system [Q B F E H M N G I D A C L O]
+time 602ms: Simulated Memory:
+================================
+AABBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGG
+GGGGGGGIIIIIIIIIIIIDDDDDDDDDDCCC
+CCCCCOOO.........FFFFFFFFFFFFFFF
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMM
+MMMMMMMMMMMMMMMMMMMMMNNNLLLLLLLL
+LLLLLLLLLLLL....................
+================================
+time 602ms: Process 'B' started using the CPU [Q F E H M N G I D A C L O]
+time 682ms: Process 'B' preempted due to time slice expiration [Q F E H M N G I D A C L O B]
+time 695ms: Process 'F' started using the CPU [Q E H M N G I D A C L O B]
+time 775ms: Process 'F' preempted due to time slice expiration [Q E H M N G I D A C L O B F]
+time 788ms: Process 'E' started using the CPU [Q H M N G I D A C L O B F]
+time 868ms: Process 'E' preempted due to time slice expiration [Q H M N G I D A C L O B F E]
+time 881ms: Process 'H' started using the CPU [Q M N G I D A C L O B F E]
+time 961ms: Process 'H' preempted due to time slice expiration [Q M N G I D A C L O B F E H]
+time 974ms: Process 'M' started using the CPU [Q N G I D A C L O B F E H]
+time 1054ms: Process 'M' preempted due to time slice expiration [Q N G I D A C L O B F E H M]
+time 1067ms: Process 'N' started using the CPU [Q G I D A C L O B F E H M]
+time 1147ms: Process 'N' preempted due to time slice expiration [Q G I D A C L O B F E H M N]
+time 1160ms: Process 'G' started using the CPU [Q I D A C L O B F E H M N]
+time 1199ms: Process 'G' completed its CPU burst [Q I D A C L O B F E H M N]
+time 1199ms: Process 'G' performing I/O [Q I D A C L O B F E H M N]
+time 1212ms: Process 'I' started using the CPU [Q D A C L O B F E H M N]
+time 1262ms: Process 'I' completed its CPU burst [Q D A C L O B F E H M N]
+time 1262ms: Process 'I' performing I/O [Q D A C L O B F E H M N]
+time 1275ms: Process 'D' started using the CPU [Q A C L O B F E H M N]
+time 1292ms: Process 'I' completed I/O [Q A C L O B F E H M N I]
+time 1299ms: Process 'G' completed I/O [Q A C L O B F E H M N I G]
+time 1355ms: Process 'D' preempted due to time slice expiration [Q A C L O B F E H M N I G D]
+time 1368ms: Process 'A' started using the CPU [Q C L O B F E H M N I G D]
+time 1375ms: Process 'A' terminated [Q C L O B F E H M N I G D]
+time 1388ms: Process 'C' started using the CPU [Q L O B F E H M N I G D]
+time 1467ms: Process 'C' completed its CPU burst [Q L O B F E H M N I G D]
+time 1467ms: Process 'C' performing I/O [Q L O B F E H M N I G D]
+time 1480ms: Process 'L' started using the CPU [Q O B F E H M N I G D]
+time 1560ms: Process 'L' preempted due to time slice expiration [Q O B F E H M N I G D L]
+time 1573ms: Process 'O' started using the CPU [Q B F E H M N I G D L]
+time 1653ms: Process 'O' preempted due to time slice expiration [Q B F E H M N I G D L O]
+time 1666ms: Process 'B' started using the CPU [Q F E H M N I G D L O]
+time 1746ms: Process 'B' preempted due to time slice expiration [Q F E H M N I G D L O B]
+time 1759ms: Process 'F' started using the CPU [Q E H M N I G D L O B]
+time 1798ms: Process 'F' completed its CPU burst [Q E H M N I G D L O B]
+time 1798ms: Process 'F' performing I/O [Q E H M N I G D L O B]
+time 1811ms: Process 'E' started using the CPU [Q H M N I G D L O B]
+time 1878ms: Process 'F' completed I/O [Q H M N I G D L O B F]
+time 1891ms: Process 'E' preempted due to time slice expiration [Q H M N I G D L O B F E]
+time 1904ms: Process 'H' started using the CPU [Q M N I G D L O B F E]
+time 1923ms: Process 'H' completed its CPU burst [Q M N I G D L O B F E]
+time 1923ms: Process 'H' performing I/O [Q M N I G D L O B F E]
+time 1936ms: Process 'M' started using the CPU [Q N I G D L O B F E]
+time 2016ms: Process 'M' preempted due to time slice expiration [Q N I G D L O B F E M]
+time 2023ms: Process 'H' completed I/O [Q N I G D L O B F E M H]
+time 2029ms: Process 'N' started using the CPU [Q I G D L O B F E M H]
+time 2109ms: Process 'N' preempted due to time slice expiration [Q I G D L O B F E M H N]
+time 2122ms: Process 'I' started using the CPU [Q G D L O B F E M H N]
+time 2172ms: Process 'I' terminated [Q G D L O B F E M H N]
+time 2185ms: Process 'G' started using the CPU [Q D L O B F E M H N]
+time 2266ms: Process 'G' preempted due to time slice expiration [Q D L O B F E M H N G]
+time 2279ms: Process 'D' started using the CPU [Q L O B F E M H N G]
+time 2288ms: Process 'D' completed its CPU burst [Q L O B F E M H N G]
+time 2288ms: Process 'D' performing I/O [Q L O B F E M H N G]
+time 2301ms: Process 'L' started using the CPU [Q O B F E M H N G]
+time 2320ms: Process 'L' completed its CPU burst [Q O B F E M H N G]
+time 2320ms: Process 'L' performing I/O [Q O B F E M H N G]
+time 2330ms: Process 'L' completed I/O [Q O B F E M H N G L]
+time 2333ms: Process 'O' started using the CPU [Q B F E M H N G L]
+time 2352ms: Process 'O' terminated [Q B F E M H N G L]
+time 2365ms: Process 'B' started using the CPU [Q F E M H N G L]
+time 2378ms: Process 'D' completed I/O [Q F E M H N G L D]
+time 2445ms: Process 'B' preempted due to time slice expiration [Q F E M H N G L D B]
+time 2458ms: Process 'F' started using the CPU [Q E M H N G L D B]
+time 2539ms: Process 'F' preempted due to time slice expiration [Q E M H N G L D B F]
+time 2552ms: Process 'E' started using the CPU [Q M H N G L D B F]
+time 2632ms: Process 'E' preempted due to time slice expiration [Q M H N G L D B F E]
+time 2645ms: Process 'M' started using the CPU [Q H N G L D B F E]
+time 2725ms: Process 'M' preempted due to time slice expiration [Q H N G L D B F E M]
+time 2738ms: Process 'H' started using the CPU [Q N G L D B F E M]
+time 2819ms: Process 'H' preempted due to time slice expiration [Q N G L D B F E M H]
+time 2832ms: Process 'N' started using the CPU [Q G L D B F E M H]
+time 2871ms: Process 'N' completed its CPU burst [Q G L D B F E M H]
+time 2871ms: Process 'N' performing I/O [Q G L D B F E M H]
+time 2884ms: Process 'G' started using the CPU [Q L D B F E M H]
+time 2923ms: Process 'G' terminated [Q L D B F E M H]
+time 2936ms: Process 'L' started using the CPU [Q D B F E M H]
+time 2971ms: Process 'N' completed I/O [Q D B F E M H N]
+time 3017ms: Process 'L' preempted due to time slice expiration [Q D B F E M H N L]
+time 3030ms: Process 'D' started using the CPU [Q B F E M H N L]
+time 3111ms: Process 'D' preempted due to time slice expiration [Q B F E M H N L D]
+time 3124ms: Process 'B' started using the CPU [Q F E M H N L D]
+time 3167ms: Process 'C' completed I/O [Q F E M H N L D C]
+time 3204ms: Process 'B' preempted due to time slice expiration [Q F E M H N L D C B]
+time 3217ms: Process 'F' started using the CPU [Q E M H N L D C B]
+time 3256ms: Process 'F' completed its CPU burst [Q E M H N L D C B]
+time 3256ms: Process 'F' performing I/O [Q E M H N L D C B]
+time 3269ms: Process 'E' started using the CPU [Q M H N L D C B]
+time 3336ms: Process 'F' completed I/O [Q M H N L D C B F]
+time 3349ms: Process 'E' preempted due to time slice expiration [Q M H N L D C B F E]
+time 3362ms: Process 'M' started using the CPU [Q H N L D C B F E]
+time 3442ms: Process 'M' preempted due to time slice expiration [Q H N L D C B F E M]
+time 3455ms: Process 'H' started using the CPU [Q N L D C B F E M]
+time 3474ms: Process 'H' completed its CPU burst [Q N L D C B F E M]
+time 3474ms: Process 'H' performing I/O [Q N L D C B F E M]
+time 3487ms: Process 'N' started using the CPU [Q L D C B F E M]
+time 3568ms: Process 'N' preempted due to time slice expiration [Q L D C B F E M N]
+time 3574ms: Process 'H' completed I/O [Q L D C B F E M N H]
+time 3581ms: Process 'L' started using the CPU [Q D C B F E M N H]
+time 3600ms: Process 'L' completed its CPU burst [Q D C B F E M N H]
+time 3600ms: Process 'L' performing I/O [Q D C B F E M N H]
+time 3610ms: Process 'L' completed I/O [Q D C B F E M N H L]
+time 3613ms: Process 'D' started using the CPU [Q C B F E M N H L]
+time 3622ms: Process 'D' completed its CPU burst [Q C B F E M N H L]
+time 3622ms: Process 'D' performing I/O [Q C B F E M N H L]
+time 3635ms: Process 'C' started using the CPU [Q B F E M N H L]
+time 3712ms: Process 'D' completed I/O [Q B F E M N H L D]
+time 3715ms: Process 'C' completed its CPU burst [Q B F E M N H L D]
+time 3715ms: Process 'C' performing I/O [Q B F E M N H L D]
+time 3728ms: Process 'B' started using the CPU [Q F E M N H L D]
+time 3808ms: Process 'B' preempted due to time slice expiration [Q F E M N H L D B]
+time 3821ms: Process 'F' started using the CPU [Q E M N H L D B]
+time 3902ms: Process 'F' preempted due to time slice expiration [Q E M N H L D B F]
+time 3915ms: Process 'E' started using the CPU [Q M N H L D B F]
+time 3934ms: Process 'E' completed its CPU burst [Q M N H L D B F]
+time 3934ms: Process 'E' performing I/O [Q M N H L D B F]
+time 3947ms: Process 'M' started using the CPU [Q N H L D B F]
+time 4024ms: Process 'E' completed I/O [Q N H L D B F E]
+time 4027ms: Process 'M' preempted due to time slice expiration [Q N H L D B F E M]
+time 4040ms: Process 'N' started using the CPU [Q H L D B F E M]
+time 4120ms: Process 'N' preempted due to time slice expiration [Q H L D B F E M N]
+time 4133ms: Process 'H' started using the CPU [Q L D B F E M N]
+time 4214ms: Process 'H' preempted due to time slice expiration [Q L D B F E M N H]
+time 4227ms: Process 'L' started using the CPU [Q D B F E M N H]
+time 4308ms: Process 'L' preempted due to time slice expiration [Q D B F E M N H L]
+time 4321ms: Process 'D' started using the CPU [Q B F E M N H L]
+time 4402ms: Process 'D' preempted due to time slice expiration [Q B F E M N H L D]
+time 4415ms: Process 'B' started using the CPU [Q F E M N H L D]
+time 4434ms: Process 'B' terminated [Q F E M N H L D]
+time 4447ms: Process 'F' started using the CPU [Q E M N H L D]
+time 4486ms: Process 'F' completed its CPU burst [Q E M N H L D]
+time 4486ms: Process 'F' performing I/O [Q E M N H L D]
+time 4499ms: Process 'E' started using the CPU [Q M N H L D]
+time 4566ms: Process 'F' completed I/O [Q M N H L D F]
+time 4580ms: Process 'E' preempted due to time slice expiration [Q M N H L D F E]
+time 4593ms: Process 'M' started using the CPU [Q N H L D F E]
+time 4673ms: Process 'M' preempted due to time slice expiration [Q N H L D F E M]
+time 4686ms: Process 'N' started using the CPU [Q H L D F E M]
+time 4725ms: Process 'N' terminated [Q H L D F E M]
+time 4738ms: Process 'H' started using the CPU [Q L D F E M]
+time 4757ms: Process 'H' completed its CPU burst [Q L D F E M]
+time 4757ms: Process 'H' performing I/O [Q L D F E M]
+time 4770ms: Process 'L' started using the CPU [Q D F E M]
+time 4789ms: Process 'L' terminated [Q D F E M]
+time 4802ms: Process 'D' started using the CPU [Q F E M]
+time 4811ms: Process 'D' completed its CPU burst [Q F E M]
+time 4811ms: Process 'D' performing I/O [Q F E M]
+time 4824ms: Process 'F' started using the CPU [Q E M]
+time 4857ms: Process 'H' completed I/O [Q E M H]
+time 4901ms: Process 'D' completed I/O [Q E M H D]
+time 4905ms: Process 'F' preempted due to time slice expiration [Q E M H D F]
+time 4918ms: Process 'E' started using the CPU [Q M H D F]
+time 4998ms: Process 'E' preempted due to time slice expiration [Q M H D F E]
+time 5011ms: Process 'M' started using the CPU [Q H D F E]
+time 5091ms: Process 'M' preempted due to time slice expiration [Q H D F E M]
+time 5104ms: Process 'H' started using the CPU [Q D F E M]
+time 5185ms: Process 'H' preempted due to time slice expiration [Q D F E M H]
+time 5198ms: Process 'D' started using the CPU [Q F E M H]
+time 5279ms: Process 'D' preempted due to time slice expiration [Q F E M H D]
+time 5292ms: Process 'F' started using the CPU [Q E M H D]
+time 5331ms: Process 'F' completed its CPU burst [Q E M H D]
+time 5331ms: Process 'F' performing I/O [Q E M H D]
+time 5344ms: Process 'E' started using the CPU [Q M H D]
+time 5411ms: Process 'F' completed I/O [Q M H D F]
+time 5415ms: Process 'C' completed I/O [Q M H D F C]
+time 5424ms: Process 'E' preempted due to time slice expiration [Q M H D F C E]
+time 5437ms: Process 'M' started using the CPU [Q H D F C E]
+time 5517ms: Process 'M' preempted due to time slice expiration [Q H D F C E M]
+time 5530ms: Process 'H' started using the CPU [Q D F C E M]
+time 5549ms: Process 'H' terminated [Q D F C E M]
+time 5562ms: Process 'D' started using the CPU [Q F C E M]
+time 5571ms: Process 'D' completed its CPU burst [Q F C E M]
+time 5571ms: Process 'D' performing I/O [Q F C E M]
+time 5584ms: Process 'F' started using the CPU [Q C E M]
+time 5661ms: Process 'D' completed I/O [Q C E M D]
+time 5665ms: Process 'F' preempted due to time slice expiration [Q C E M D F]
+time 5678ms: Process 'C' started using the CPU [Q E M D F]
+time 5758ms: Process 'C' completed its CPU burst [Q E M D F]
+time 5758ms: Process 'C' performing I/O [Q E M D F]
+time 5771ms: Process 'E' started using the CPU [Q M D F]
+time 5851ms: Process 'E' preempted due to time slice expiration [Q M D F E]
+time 5864ms: Process 'M' started using the CPU [Q D F E]
+time 5944ms: Process 'M' preempted due to time slice expiration [Q D F E M]
+time 5957ms: Process 'D' started using the CPU [Q F E M]
+time 6038ms: Process 'D' preempted due to time slice expiration [Q F E M D]
+time 6051ms: Process 'F' started using the CPU [Q E M D]
+time 6090ms: Process 'F' terminated [Q E M D]
+time 6103ms: Process 'E' started using the CPU [Q M D]
+time 6183ms: Process 'E' preempted due to time slice expiration [Q M D E]
+time 6196ms: Process 'M' started using the CPU [Q D E]
+time 6276ms: Process 'M' preempted due to time slice expiration [Q D E M]
+time 6289ms: Process 'D' started using the CPU [Q E M]
+time 6298ms: Process 'D' terminated [Q E M]
+time 6311ms: Process 'E' started using the CPU [Q M]
+time 6330ms: Process 'E' completed its CPU burst [Q M]
+time 6330ms: Process 'E' performing I/O [Q M]
+time 6343ms: Process 'M' started using the CPU [Q]
+time 6420ms: Process 'E' completed I/O [Q E]
+time 6423ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 6436ms: Process 'E' started using the CPU [Q M]
+time 6517ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 6530ms: Process 'M' started using the CPU [Q E]
+time 6610ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 6623ms: Process 'E' started using the CPU [Q M]
+time 6703ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 6716ms: Process 'M' started using the CPU [Q E]
+time 6796ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 6809ms: Process 'E' started using the CPU [Q M]
+time 6889ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 6902ms: Process 'M' started using the CPU [Q E]
+time 6982ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 6995ms: Process 'E' started using the CPU [Q M]
+time 7075ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 7088ms: Process 'M' started using the CPU [Q E]
+time 7168ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 7181ms: Process 'E' started using the CPU [Q M]
+time 7261ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 7274ms: Process 'M' started using the CPU [Q E]
+time 7354ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 7367ms: Process 'E' started using the CPU [Q M]
+time 7386ms: Process 'E' completed its CPU burst [Q M]
+time 7386ms: Process 'E' performing I/O [Q M]
+time 7399ms: Process 'M' started using the CPU [Q]
+time 7458ms: Process 'C' completed I/O [Q C]
+time 7476ms: Process 'E' completed I/O [Q C E]
+time 7479ms: Process 'M' preempted due to time slice expiration [Q C E M]
+time 7492ms: Process 'C' started using the CPU [Q E M]
+time 7572ms: Process 'C' completed its CPU burst [Q E M]
+time 7572ms: Process 'C' performing I/O [Q E M]
+time 7585ms: Process 'E' started using the CPU [Q M]
+time 7666ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 7679ms: Process 'M' started using the CPU [Q E]
+time 7759ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 7772ms: Process 'E' started using the CPU [Q M]
+time 7852ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 7865ms: Process 'M' started using the CPU [Q E]
+time 7945ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 7958ms: Process 'E' started using the CPU [Q M]
+time 8038ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8051ms: Process 'M' started using the CPU [Q E]
+time 8131ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8144ms: Process 'E' started using the CPU [Q M]
+time 8224ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8237ms: Process 'M' started using the CPU [Q E]
+time 8317ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8330ms: Process 'E' started using the CPU [Q M]
+time 8410ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8423ms: Process 'M' started using the CPU [Q E]
+time 8442ms: Process 'M' completed its CPU burst [Q E]
+time 8442ms: Process 'M' performing I/O [Q E]
+time 8455ms: Process 'E' started using the CPU [Q]
+time 8474ms: Process 'E' completed its CPU burst [Q]
+time 8474ms: Process 'E' performing I/O [Q]
+time 8542ms: Process 'M' completed I/O [Q M]
+time 8555ms: Process 'M' started using the CPU [Q]
+time 8564ms: Process 'E' completed I/O [Q E]
+time 8636ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8649ms: Process 'E' started using the CPU [Q M]
+time 8730ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8743ms: Process 'M' started using the CPU [Q E]
+time 8823ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 8836ms: Process 'E' started using the CPU [Q M]
+time 8916ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 8929ms: Process 'M' started using the CPU [Q E]
+time 9009ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9022ms: Process 'E' started using the CPU [Q M]
+time 9102ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 9115ms: Process 'M' started using the CPU [Q E]
+time 9195ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9208ms: Process 'E' started using the CPU [Q M]
+time 9272ms: Process 'C' completed I/O [Q M C]
+time 9288ms: Process 'E' preempted due to time slice expiration [Q M C E]
+time 9301ms: Process 'M' started using the CPU [Q C E]
+time 9381ms: Process 'M' preempted due to time slice expiration [Q C E M]
+time 9394ms: Process 'C' started using the CPU [Q E M]
+time 9474ms: Process 'C' terminated [Q E M]
+time 9487ms: Process 'E' started using the CPU [Q M]
+time 9567ms: Process 'E' preempted due to time slice expiration [Q M E]
+time 9580ms: Process 'M' started using the CPU [Q E]
+time 9660ms: Process 'M' preempted due to time slice expiration [Q E M]
+time 9673ms: Process 'E' started using the CPU [Q M]
+time 9692ms: Process 'E' terminated [Q M]
+time 9705ms: Process 'M' started using the CPU [Q]
+time 10924ms: Process 'M' terminated [Q]
+time 10924ms: Simulator for RR and Best-Fit ended [Q]
+

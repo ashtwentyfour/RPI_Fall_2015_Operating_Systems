@@ -1,0 +1,42 @@
+Algorithm SRT and First-Fit
+-- average CPU burst time: 231.45
+-- average wait time: 728.8
+-- average turnaround time: 976.175
+-- total number of context switches: 49
+-- total defragmentation time: 0
+-- fraction (%) of time spent performing defragmentation: 0
+Algorithm SRT and Next-Fit
+-- average CPU burst time: 231.45
+-- average wait time: 1312.03
+-- average turnaround time: 1559.4
+-- total number of context switches: 49
+-- total defragmentation time: 2120
+-- fraction (%) of time spent performing defragmentation: 17.4932
+Algorithm SRT and Best-Fit
+-- average CPU burst time: 231.45
+-- average wait time: 728.8
+-- average turnaround time: 976.175
+-- total number of context switches: 49
+-- total defragmentation time: 0
+-- fraction (%) of time spent performing defragmentation: 0
+Algorithm RR and First-Fit
+-- average CPU burst time: 231.45
+-- average wait time: 1300.03
+-- average turnaround time: 1571.78
+-- total number of context switches: 124
+-- total defragmentation time: 0
+-- fraction (%) of time spent performing defragmentation: 0
+Algorithm RR and Next-Fit
+-- average CPU burst time: 231.45
+-- average wait time: 1758.28
+-- average turnaround time: 2030.03
+-- total number of context switches: 124
+-- total defragmentation time: 1410
+-- fraction (%) of time spent performing defragmentation: 11.4309
+Algorithm RR and Best-Fit
+-- average CPU burst time: 231.45
+-- average wait time: 1300.03
+-- average turnaround time: 1571.78
+-- total number of context switches: 124
+-- total defragmentation time: 0
+-- fraction (%) of time spent performing defragmentation: 0
